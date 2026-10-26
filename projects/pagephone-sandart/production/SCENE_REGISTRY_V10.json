@@ -6,7 +6,7 @@
   "branch": "feat/pagephone-sandart-v1",
   "root": "projects/pagephone-sandart",
   "source_story_branch": "feat/pagephone-confession-v1",
-  "master_status": "S02_V5_USER_APPROVED_EDIT_USE_S03_V1_VISUAL_PREVIEW_PENDING",
+  "master_status": "S02_V5_USER_EDIT_SELECT_S03_V2_SILENT_ANIMATIC_DIRECTOR_REVIEW_PENDING",
   "format": {
     "duration_sec": 30,
     "fps": 30,
@@ -62,7 +62,7 @@
         12
       ],
       "images": "V2_UPSCALED_ACTOR_PREVIS_AND_S01_PHONE_ANCHORS_NOT_FINAL",
-      "motion": "S02_V5_USER_APPROVED_VISUAL_EDIT_CANDIDATE_LOCK_NO_REGEN",
+      "motion": "V5_HAND_SYNCHRONIZED_GRAIN_MASK_ANIMATIC_6SEC_NOT_I2V",
       "audio": "TEXT_CUES_ONLY_ACTUAL_KOREAN_AUDIO_NOT_GENERATED",
       "locked": false,
       "scene_start_matches": "S01_V3_END_WORKER_PHONE",
@@ -111,7 +111,7 @@
         "director_acceptance": false
       },
       "i2v_authorized": false,
-      "next_gate": "Preserve S02 V5 unchanged; attach Korean speech and BGM with measured durations in final edit; do not redo this accepted visual unless editor requests",
+      "next_gate": "Generate one-call handset pickup and empty cradle using exact S01 phone geometry, create high-fidelity sand portraits/hand transformations, obtain measured Korean voice audio, perform full human QC before authorizing I2V.",
       "independent_vector_renders": 7,
       "s01_last_anchor_copied_unchanged": true,
       "timeline_revision": "V3.1_PHONE_PICKUP_FIRST",
@@ -159,18 +159,19 @@
       "preferred_v3_1_handoff_package": "safety_up_S02_V3_1_RECOVERY_QC.zip",
       "preferred_v3_1_handoff_sha256": "1493175bd75bff157bfe52b79b79d98eaedf77e7b9d829d67821800c40ee5d62",
       "cradle_appearance_qc": "UPDATED_VECTOR_CRADLE_CENTRAL_DARK_RAIL_REMOVED_STILL_NOT_PRODUCTION",
-      "editorial_decision": {
-        "status": "USER_APPROVED_USE_AS_IS_FOR_EDIT",
-        "scope": "EXISTING_S02_V5_SILENT_VISUAL",
-        "date_kst": "2026-10-26",
-        "user_intent": "Trial video looks sufficient to use unchanged; continue to next scene",
-        "retain_source_sha256": "2081e17eb934404bb0d36989e4056a4de9a1cd9c9ca720b2b1ed22637d1a2c73",
-        "action": "FREEZE_VISUAL_EDIT_CANDIDATE_AND_ADVANCE_TO_S03",
-        "not_in_scope": [
-          "Recorded Korean voices not approved because not generated",
-          "Physical phone pickup issue not resolved",
-          "No final composite audio or 1080p master approval"
-        ]
+      "editorial_selection": {
+        "status": "USER_SELECTED_FOR_EDITING",
+        "version": "V5_HAND_DRIVEN_DIGITAL_WIPE",
+        "decision": "User judged existing silent V5 trial usable in edit and asked to proceed.",
+        "motion_clip_sha256": "2081e17eb934404bb0d36989e4056a4de9a1cd9c9ca720b2b1ed22637d1a2c73",
+        "limitations_retained": [
+          "No visible receiver pickup",
+          "No recorded Korean voice or sync",
+          "Not native FHD",
+          "Not full physical sand simulation"
+        ],
+        "audio_locked": false,
+        "final_locked": false
       }
     },
     {
@@ -179,67 +180,50 @@
         12,
         18
       ],
-      "images": "V1_COMPOSITED_SAND_ART_PREVIS_FOUR_STILLS",
-      "motion": "S03_V1_SIX_SECOND_DIGITAL_GRAIN_REVEAL_ANIMATIC_REVIEW",
-      "audio": "KOREAN_TEXT_ONLY_NO_VOICE_WAV_MP3",
+      "images": "V2_TWO_FULL_SCENE_1672x941_SAND_ART_REFERENCES_NOT_NATIVE_FHD",
+      "motion": "V2_6SEC_DIGITAL_HAND_WIPE_ANIMATIC_FOR_REVIEW",
+      "audio": "KOREAN_TEXT_ONLY_NOT_RECORDED",
       "locked": false,
+      "director_approval": false,
       "visual_valve_label": "V11",
       "spoken_label_ko": "브이십일",
-      "one_valve_visual_reference": "single sand-textured illustrated fixed wheel/body/flanges reused in all S03 frames",
-      "source_phone_anchor": "S02_V5_LAST_DECODED_FRAME",
-      "source_phone_geometry": "S01 reference master",
-      "package": "safety_up_S03_SANDART_PREVIS_V1_INTEGRATED.zip",
-      "package_sha256": "fe705390475c89e0002c2b3e762e6c861c893fe342963dc3f205dab9b31d59c5",
-      "video": "S03_6S_GRAIN_VALVE_REVEAL_ANIMATIC_V1.mp4",
-      "video_sha256": "2af368a039da3de6874c9183194166931953c06bb473fb8444592265babbb55d",
-      "video_spec": {
-        "width": 960,
-        "height": 540,
-        "fps": 30,
-        "frames": 180,
-        "duration_sec": 6,
-        "audio_streams": 0
-      },
-      "boundaries": {
-        "s02_end_to_s03_start_mae": 3.4354682,
-        "reason": "video re-encoding, near-exact decoded frame continuity"
-      },
-      "cue": {
-        "ambience_inspect": [
-          12,
-          14.4
-        ],
-        "dialogue": [
-          14.4,
-          17.8
-        ],
-        "field_m": "브이십일 밸브 한 번 더 확인하겠습니다.",
-        "outro": [
-          17.8,
-          18
-        ]
-      },
+      "scene_start_matches": "S02_V5_LAST_DECODED_FRAME_RESAMPLED",
+      "actual_visual_source_count": 2,
+      "contact_sheet": "S03_V2_CONTACT_SHEET.jpg",
+      "video_filename": "S03_6S_SAND_HAND_REVEAL_ANIMATIC_V2.mp4",
+      "video_sha256": "4d493676ae8759d2f3b13cdbb30d2ae8e19aa7e405464e1414ba652535eccc81",
+      "video_duration_sec": 6,
+      "video_frames": 180,
+      "video_fps": 30,
+      "video_resolution": [
+        1280,
+        720
+      ],
+      "combined_continuity_video": "S02_S03_12S_CONTINUITY_REVIEW_V1.mp4",
+      "combined_sha256": "9f4be838b79d0053e05878e9c218c0503458e3e04cb32f213d7074d7be2b275a",
+      "combined_duration_sec": 12,
+      "combined_frames": 360,
+      "package_name": "safety_up_S03_SANDART_PREVIS_V2_INTEGRATED.zip",
+      "package_sha256": "1588b9e6f3530806052b177ddf44a534d1078e978def2e1d1d445d1e6db9b12a",
+      "keyframe_presence_in_git": false,
       "qc": {
-        "status": "PREVIEW_AVAILABLE_USER_REVIEW_PENDING",
-        "passes": [
-          "S02-S03 anchor continuity",
-          "S03 one valve depiction reused consistently",
-          "V11 small visual label and prescribed spoken Korean",
-          "6sec 30fps 180frame silent video technical QC",
-          "hand-driven digital grain transition"
-        ],
-        "not_tested": [
-          "Real hand physical sand art",
-          "Actual audio file timing and pronunciation",
-          "Phone receiver pickup action",
-          "Actor appearance consistency with S05"
-        ],
-        "failures": [
-          "Illustrated valve is visually flatter than S01 photo-sand style",
-          "Phone receiver pickup not depicted"
-        ]
+        "status": "PREVIS_TECHNICAL_PASS_HUMAN_DIRECTOR_PENDING",
+        "S02_boundary_mae255": 3.0326472,
+        "artist_hand_simulation": "PASS_DIGITAL_ONLY",
+        "real_sand_physics": "NOT_TESTED",
+        "valve_same_exact_geometry": "PARTIAL_TWO_INDEPENDENT_ART_REFERENCES",
+        "single_receiver_visible": "PASS_CALL_IMAGE_ONLY",
+        "phone_pickup_and_empty_cradle": "NOT_TESTED",
+        "Korean_dialogue": "PASS_TEXT_ONLY",
+        "elevenlabs_audio": "NOT_GENERATED",
+        "lipsync": "NOT_GENERATED"
       },
-      "director_approval": false
+      "i2v_authorized": false,
+      "dialogue_window_sec": [
+        14.4,
+        17.8
+      ],
+      "next_gate": "Human inspect 12-sec continuity and S03 V2; verify valve/worker match between artwork; record Korean voice then test duration and mouth movement. No FINAL_LOCKED."
     },
     {
       "id": "S04",
