@@ -1,0 +1,60 @@
+{
+  "schema_version": "3.3-review",
+  "project": "SAFETY UP",
+  "scene": "S03",
+  "span_seconds": [
+    12,
+    18
+  ],
+  "review_status": "REVIEW_PENDING",
+  "archive_name": "safety_up_S03_keyframes_REVIEW_V1.zip",
+  "archive_sha256": "6f6c7b0d36ef45956d0f97ce4b278445d81ec745f49e9a55265301bbab08837e",
+  "archive_in_public_git": false,
+  "assets": [
+    {
+      "id": "S03_F01_START",
+      "time_s": 12,
+      "filename": "frames/S03_F01_START.png",
+      "action": "A plaque close-up"
+    },
+    {
+      "id": "S03_F02_MID",
+      "time_s": 15,
+      "filename": "frames/S03_F02_MID.png",
+      "action": "worker and A inspection"
+    },
+    {
+      "id": "S03_F03_END",
+      "time_s": 18,
+      "filename": "frames/S03_F03_END.png",
+      "action": "worker requests checking by phone"
+    },
+    {
+      "id": "S02_F03_END_CORRECTED_V2",
+      "time_s": 12,
+      "filename": "frames/S02_F03_END_CORRECTED_V2.png",
+      "action": "replace invalid double-handset S02 final frame"
+    }
+  ],
+  "media_provenance": "S03 3 files are different editorial crops of single independent previous photo source: 1672x941, resized for 1920x1080 review. NOT 3 independent native FHD generation masters.",
+  "corrections": {
+    "valve_visual": "A",
+    "valve_voice": "알파",
+    "exact_line": "알파 밸브 한 번 더 확인하겠습니다.",
+    "handset_count": "one per physical phone",
+    "wall_cradle_when_worker_holds_receiver": "empty",
+    "forbidden": [
+      "21번",
+      "-A",
+      "대시 알파",
+      "two handsets per phone"
+    ]
+  },
+  "gates": {
+    "editorial": "REVIEW_PENDING",
+    "source_phone_fidelity": "PENDING",
+    "official_brand": "BRAND_QC_PENDING",
+    "i2v_motion": "NOT_VALIDATED",
+    "human_lock": false
+  }
+}

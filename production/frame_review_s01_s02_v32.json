@@ -1,0 +1,75 @@
+{
+  "schema_version": "3.2-review",
+  "project": "SAFETY UP",
+  "branch": "feat/pagephone-confession-v1",
+  "review_batch": "S01_S02",
+  "source_archive": "safety_up_S01_S02_keyframes_REVIEW_V1.zip",
+  "source_archive_sha256": "6a4b5e98b86f38773249ced973c119d2c8e3bfc1993e57a80d0a4732a7c6514c",
+  "archive_in_public_repo": false,
+  "source_image_pixels": [
+    1672,
+    941
+  ],
+  "output_canvas_pixels": [
+    1920,
+    1080
+  ],
+  "note": "Exported/resampled independent stills, some crops, not native FHD generation and not approved master",
+  "frames": [
+    {
+      "id": "S01_F01_START",
+      "global_time_s": 0,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S01_F01_START.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    },
+    {
+      "id": "S01_F02_MID",
+      "global_time_s": 3,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S01_F02_MID.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    },
+    {
+      "id": "S01_F03_END",
+      "global_time_s": 6,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S01_F03_END.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    },
+    {
+      "id": "S02_F01_START",
+      "global_time_s": 6,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S02_F01_START.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    },
+    {
+      "id": "S02_F02_MID",
+      "global_time_s": 9,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S02_F02_MID.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    },
+    {
+      "id": "S02_F03_END",
+      "global_time_s": 12,
+      "review_status": "REVIEW_PENDING",
+      "source_file": "frames/S02_F03_END.png",
+      "phone_fidelity": "PENDING",
+      "brand_qc": "BRAND_QC_PENDING"
+    }
+  ],
+  "gates": {
+    "S01": "REVIEW_PENDING",
+    "S02": "REVIEW_PENDING",
+    "S03": "NOT_STARTED_THIS_STAGE",
+    "human_lock": false
+  },
+  "dialogue_unchanged": true
+}

@@ -1,0 +1,11 @@
+# User-supplied photos and concept previews — private local handoff only
+/assets/reference/
+/assets/previs/
+/assets/frames_v3/
+/assets/video/
+/assets/audio/
+/deliverables/
+/logs/raw/
+.DS_Store
+__pycache__/
+*.pyc

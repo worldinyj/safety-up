@@ -1,0 +1,39 @@
+{
+  "project": "SAFETY UP",
+  "version": "V3.6",
+  "revision_date": "2026-10-26",
+  "archive": "safety_up_ALL_15_keyframes_REVIEW_V36.zip",
+  "sha256": "21559aeede043ec22c2a798293b59af90452340a60707dd5018b73afbe90e91d",
+  "count": 15,
+  "media_format": "1920x1080 JPEG review",
+  "github_binary_present": false,
+  "source": "private downloadable ZIP shared in conversation",
+  "production_ready": false,
+  "approval": "NOT_LOCKED",
+  "warnings": [
+    "S01/S02 phone consistency and KHNP official CI pending",
+    "S02 end replaced with corrected one-receiver frame",
+    "S03 V11 new single source images, voice 브이십일",
+    "S04 handset color incorrect, leader remains pending",
+    "S05 indoor panel crop rescaled, valve geometry does not match S03; needs regeneration",
+    "S05 27–30 sunset follows user approved original screenshot; text clarity needs typography post processing"
+  ],
+  "frames": [
+    "S01_F01_START.jpg",
+    "S01_F02_MID.jpg",
+    "S01_F03_END.jpg",
+    "S02_F01_START.jpg",
+    "S02_F02_MID.jpg",
+    "S02_F03_END.jpg",
+    "S03_F01_START.jpg",
+    "S03_F02_MID.jpg",
+    "S03_F03_END.jpg",
+    "S04_F01_START.jpg",
+    "S04_F02_MID.jpg",
+    "S04_F03_END.jpg",
+    "S05_F01_START.jpg",
+    "S05_F02_MID.jpg",
+    "S05_F03_END.jpg"
+  ],
+  "next_gate": "Director review S05 then correct unmatched images; native-quality master images and human acceptance required before I2V."
+}

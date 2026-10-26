@@ -1,0 +1,71 @@
+{
+  "schema_version": "3.6-review",
+  "title": "페이지폰의 고백",
+  "scene": "S05",
+  "clip_seconds": [
+    24,
+    30
+  ],
+  "status": "REVIEW_PENDING_REWORK_REQUIRED",
+  "video_method": "3 second indoor verification + 3 second editor-held approved sunset endcard; not a continuous I2V morph",
+  "spoken_language": "ko-KR",
+  "spoken_line_pagephone": "안전문화는, 연결된 목소리에서 시작됩니다.",
+  "field_workers_speaking": false,
+  "valve_label": "V11",
+  "valve_spoken": "브이십일",
+  "valve_visual_reference": "S03 accepted red wheel + gray body + blue flange/yellow ring/small V11 plate; current preview NOT MATCHED",
+  "approved_ending_visual_reference": "IMG_9558.jpeg",
+  "final_copy": [
+    "멈춰 말하는 팔로우십",
+    "귀 기울이는 리더십",
+    "그것이 원자력안전문화입니다."
+  ],
+  "assets": [
+    {
+      "id": "S05_F01_START",
+      "time": 24,
+      "location": "private ZIP",
+      "path": "frames/S05_F01_START_REVIEW_V1.png",
+      "source_type": "crop_upscale_from_ai_storyboard",
+      "status": "REWORK_REQUIRED"
+    },
+    {
+      "id": "S05_F02_MID",
+      "time": 27,
+      "location": "private ZIP",
+      "path": "frames/S05_F02_MID_REVIEW_V1.png",
+      "source_type": "upscale_user_selected_endcard",
+      "status": "REVIEW_ONLY"
+    },
+    {
+      "id": "S05_F03_END",
+      "time": 30,
+      "location": "private ZIP",
+      "path": "frames/S05_F03_END_REVIEW_V1.png",
+      "source_type": "upscale_user_selected_endcard_plus_ai_notice",
+      "status": "REVIEW_ONLY"
+    },
+    {
+      "id": "S05_INDOOR_26_5_BRIDGE",
+      "time": 26.5,
+      "location": "private ZIP",
+      "path": "frames/S05_INDOOR_26_5_BRIDGE_REVIEW_V1.png",
+      "source_type": "crop_upscale_from_ai_storyboard",
+      "status": "REWORK_REQUIRED"
+    }
+  ],
+  "archive": {
+    "filename": "safety_up_S05_keyframes_REVIEW_V1.zip",
+    "sha256": "4cfcc751ebbc66565c6a5ac6c049d6c4d9ee1578e0d534e809032518cb6a0bad",
+    "in_public_github": false
+  },
+  "gates": {
+    "human_image_acceptance": "PENDING",
+    "physical_valve_continuity": "FAIL_PENDING_REWORK",
+    "character_identity": "PENDING",
+    "official_khnp_ci": "PENDING",
+    "native_quality": "FAIL_FOR_INDOOR_PREVIEW",
+    "voice_actual_duration": "NOT_YET_MEASURED",
+    "i2v": "NOT_GENERATED"
+  }
+}

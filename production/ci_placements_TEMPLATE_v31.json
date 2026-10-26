@@ -1,0 +1,51 @@
+{
+  "human_approved": false,
+  "image_id": "SET_IMAGE_ID",
+  "official_ci_variant": "KHNP GREEN SYMBOL + BLUE KHNP SIGNATURE",
+  "placements": [
+    {
+      "name": "helmet",
+      "quad": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "note": "Human fills 4 corners clockwise from top-left in source image pixel coordinates"
+    },
+    {
+      "name": "chest_patch",
+      "quad": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "note": "Human verifies transparent logo placement on CLEAN base patch"
+    }
+  ]
+}

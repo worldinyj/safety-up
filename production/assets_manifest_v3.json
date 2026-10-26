@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "title": "SAFETY UP V3 Media Manifest",
+  "date": "2026-10-26",
+  "git_branch": "feat/pagephone-confession-v1",
+  "security": "PUBLIC_REPO_DO_NOT_AUTO_PUBLISH_ORIGINALS",
+  "source_assets": [
+    {
+      "id": "PHONE_REF",
+      "local_path": "assets/reference/IMG_9556.jpeg",
+      "sha256": "b8129ec0bf9398143497a95943403da2b4a0bbbafdf0c2498bcb9ec125187d06",
+      "pixel_size": [
+        1536,
+        1152
+      ],
+      "stored_in_repo": false
+    },
+    {
+      "id": "END_CARD_REF",
+      "local_path": "assets/reference/IMG_9558.jpeg",
+      "sha256": "acb0082813415387a8c5f0aabe7e4e7ab73245072b9fd0fe1f1ffef99664b60a",
+      "pixel_size": [
+        1012,
+        620
+      ],
+      "stored_in_repo": false
+    }
+  ],
+  "handoff_zip": {
+    "download_name": "safety_up_grokbot_media_handoff_v3.zip",
+    "sha256": "f19f1ae4d8e7413392559337b437dc1cd94042aea9d6928ec1f7516c1f40e21d",
+    "bytes": 6217820,
+    "source": "provided as downloadable conversation artifact, not available via GitHub checkout",
+    "contains": "two user-supplied refs + 15 separated PREVIS JPG + contact sheet, frame manifests",
+    "security": "private local handoff"
+  },
+  "previs": {
+    "planned_frame_count": 15,
+    "files_pattern": "assets/previs/S0X_{FIRST|MIDDLE|LAST}_PREVIS_V3.jpg",
+    "pixels": [
+      1920,
+      1080
+    ],
+    "native_detail": "roughly 304x225 board extracts; rescaled, NOT native FHD",
+    "quality_status": "CONCEPT_PREVIS_ONLY",
+    "production_action": "regenerate independent source-quality 16:9 frames before I2V"
+  },
+  "naming": {
+    "scene_keyframe": "assets/frames_v3/S0X_F0Y_{START|MID|END}.png",
+    "scene_video": "S0X_I2V_V01_6s.mp4"
+  },
+  "audio_label": {
+    "on_equipment": "A",
+    "spoken": "알파",
+    "forbidden": [
+      "21",
+      "-A",
+      "대시 알파",
+      "A번"
+    ]
+  },
+  "sunset_endcard": {
+    "local_source": "assets/reference/IMG_9558.jpeg",
+    "time_range_seconds": [
+      27,
+      30
+    ],
+    "edit_rule": "static/slow zoom + overlay; no interior-to-outdoor morph"
+  }
+}
