@@ -1,0 +1,195 @@
+{
+  "schema_version": "3.0",
+  "title": "페이지폰의 고백",
+  "branch": "feat/pagephone-confession-v1",
+  "updated": "2026-10-26",
+  "timeline": {
+    "duration_s": 30,
+    "slot_s": 6,
+    "slot_count": 5,
+    "visual_points_per_slot": 3,
+    "aspect_ratio": "16:9",
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "format": "mp4",
+      "maximum_bytes": 500000000
+    }
+  },
+  "creative": {
+    "valve_label": "A",
+    "valve_spoken": "알파",
+    "field_line": "알파 밸브 한 번 더 확인하겠습니다.",
+    "leader_line": "오케이. 작업 잠시 멈추고 같이 확인합시다",
+    "pagephone_line": "바로 이런 순간이죠. 안전문화는, 연결된 목소리에서 시작됩니다.",
+    "screen_greeting": [
+      "안녕하세요.",
+      "전 페이지폰입니다."
+    ],
+    "final_copy": [
+      "멈춰 말하는 팔로우십",
+      "귀 기울이는 리더십",
+      "그것이 원자력안전문화입니다."
+    ],
+    "ai_notice": "본 영상은 AI를 활용하여 제작되었습니다."
+  },
+  "references": [
+    {
+      "id": "PHONE_REF",
+      "file": "IMG_9556.jpeg",
+      "sha256": "b8129ec0bf9398143497a95943403da2b4a0bbbafdf0c2498bcb9ec125187d06",
+      "storage": "conversation_only"
+    },
+    {
+      "id": "END_CARD_REF",
+      "file": "IMG_9558.jpeg",
+      "sha256": "acb0082813415387a8c5f0aabe7e4e7ab73245072b9fd0fe1f1ffef99664b60a",
+      "storage": "conversation_only"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start_s": 0,
+      "end_s": 6,
+      "frames": [
+        {
+          "id": "S01_F01_START",
+          "time_s": 0,
+          "planned_path": "assets/frames_v3/S01_F01_START.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S01_F02_MID",
+          "time_s": 3,
+          "planned_path": "assets/frames_v3/S01_F02_MID.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S01_F03_END",
+          "time_s": 6,
+          "planned_path": "assets/frames_v3/S01_F03_END.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        }
+      ],
+      "footage_status": "NOT_GENERATED",
+      "special_edit": null
+    },
+    {
+      "id": "S02",
+      "start_s": 6,
+      "end_s": 12,
+      "frames": [
+        {
+          "id": "S02_F01_START",
+          "time_s": 6,
+          "planned_path": "assets/frames_v3/S02_F01_START.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S02_F02_MID",
+          "time_s": 9,
+          "planned_path": "assets/frames_v3/S02_F02_MID.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S02_F03_END",
+          "time_s": 12,
+          "planned_path": "assets/frames_v3/S02_F03_END.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        }
+      ],
+      "footage_status": "NOT_GENERATED",
+      "special_edit": "three_2s_worker_montage_no_morph"
+    },
+    {
+      "id": "S03",
+      "start_s": 12,
+      "end_s": 18,
+      "frames": [
+        {
+          "id": "S03_F01_START",
+          "time_s": 12,
+          "planned_path": "assets/frames_v3/S03_F01_START.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S03_F02_MID",
+          "time_s": 15,
+          "planned_path": "assets/frames_v3/S03_F02_MID.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S03_F03_END",
+          "time_s": 18,
+          "planned_path": "assets/frames_v3/S03_F03_END.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        }
+      ],
+      "footage_status": "NOT_GENERATED",
+      "special_edit": null
+    },
+    {
+      "id": "S04",
+      "start_s": 18,
+      "end_s": 24,
+      "frames": [
+        {
+          "id": "S04_F01_START",
+          "time_s": 18,
+          "planned_path": "assets/frames_v3/S04_F01_START.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S04_F02_MID",
+          "time_s": 21,
+          "planned_path": "assets/frames_v3/S04_F02_MID.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S04_F03_END",
+          "time_s": 24,
+          "planned_path": "assets/frames_v3/S04_F03_END.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        }
+      ],
+      "footage_status": "NOT_GENERATED",
+      "special_edit": null
+    },
+    {
+      "id": "S05",
+      "start_s": 24,
+      "end_s": 30,
+      "frames": [
+        {
+          "id": "S05_F01_START",
+          "time_s": 24,
+          "planned_path": "assets/frames_v3/S05_F01_START.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S05_F02_MID",
+          "time_s": 27,
+          "planned_path": "assets/frames_v3/S05_F02_MID.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        },
+        {
+          "id": "S05_F03_END",
+          "time_s": 30,
+          "planned_path": "assets/frames_v3/S05_F03_END.png",
+          "status": "REGENERATE_INDEPENDENT_IMAGE_REQUIRED"
+        }
+      ],
+      "footage_status": "NOT_GENERATED",
+      "special_edit": "0_3s_indoor_joint_check_then_3_6s_separate_sunset_end_card"
+    }
+  ],
+  "gates": {
+    "storyboard": "V3_DOCUMENTED",
+    "individual_keyframes": "NOT_LOCKED",
+    "image_to_video": "NOT_STARTED",
+    "audio": "NOT_STARTED",
+    "edit": "NOT_STARTED",
+    "human_approval": "PENDING"
+  }
+}
