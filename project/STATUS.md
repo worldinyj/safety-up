@@ -59,3 +59,9 @@
 - 화자는 페이지폰 한국어 VO만. 두 남성은 S05에서 직접 말하지 않음.
 - 파일/검수: `docs/05_generation/FRAME_REVIEW_S05_V36.md`, `production/frame_review_s05_v36.json`.
 - S01~S05 문서/검토용 컷 구성은 존재하나 15개 **네이티브 영상생성 마스터가 모두 승인된 것은 아님**. 보류 게이트를 채우기 전 최종 통합 마스터 ZIP으로 발표하지 말 것.
+
+## 15 frames integration for director review V3.6
+- S01~S05 × FIRST/MID/END 15장 이미지 통합 검토용 ZIP 준비 완료. **NOT LOCKED**.
+- `safety_up_ALL_15_keyframes_REVIEW_V36.zip` SHA256 `21559aeede043ec22c2a798293b59af90452340a60707dd5018b73afbe90e91d` (공개 GitHub 미업로드).
+- 최신 V11 S03 독립 3장 및 수화기 중복 수정 S02 마지막 컷 포함.
+- S05 현장 공동확인 이미지가 S03 밸브 형상과 불일치하여 REWORK_REQUIRED, S04 리더 수화기 색상·KHNP CI 보정 대기.

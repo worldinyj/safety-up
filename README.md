@@ -47,3 +47,7 @@ V1/V2는 이전 판본·기록이고 향후 자동 영상 생성 기준이 아�
 ### S05 검토 단계 V3.6
 - [S05 24–30초 이미지 및 최종 엔딩 검토](docs/05_generation/FRAME_REVIEW_S05_V36.md) / [프레임 기록](production/frame_review_s05_v36.json)
 - 현장 공동확인 24–27초, 선택한 석양 원전 엔딩 27–30초. 실내 프리비즈의 V11 밸브 동일성/이미지 원본 해상도는 **REWORK REQUIRED**. 사용자 인가 전 `LOCKED` 아님.
+
+## 15-frame review bundle V3.6 (2026-10-26)
+- [전체 15개 프리뷰 통합 인계서](docs/09_assets/ALL_15_REVIEW_HANDOFF_V36.md) / [프리뷰 매니페스트](production/combined_15_frame_review_v36.json)
+- `safety_up_ALL_15_keyframes_REVIEW_V36.zip`는 **대화에서 별도 다운로드**하는 검토용 JPEG 15장 묶음입니다. **네이티브 I2V 제작 마스터는 아직 아님**.
