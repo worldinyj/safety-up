@@ -80,3 +80,10 @@ V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc
 - [최신 레지스트리 V13](production/SCENE_REGISTRY_V13.json)
 - S04 리더의 이중 노출과 S05 평면 벡터 석양은 **최종 영상 사용 불허**. S02 V5는 사용자가 편집 참고용으로 선택한 버전으로 보존.
 - 사용자의 다운로드 검수 패키지에는 실제 15대표 프레임 컨택트시트 + 모래 전환 중간 프레임 19장 + 장면별 해시 + 독립 검수 기록을 포함합니다. 바이너리 자체는 GitHub 미업로드.
+
+## 3개 새 샌드아트 화풍 앵커 시안 (2026-10-26)
+
+- [M02 페이지폰 · M08 V11 점검 · M14 석양 통합 QC](docs/09_THREE_STYLE_ANCHORS_REVIEW_V1.md)
+- [세 이미지 공통 프롬프트/전환/한국어 오디오 기준](docs/10_SAND_MASTER_STYLE_AND_I2V_PROMPTS_V1.md)
+- [최신 제작 상태 V14](production/SCENE_REGISTRY_V14.json)
+- 3개 **1920×1080 디지털 절차적 샌드 이미지 시안**은 사용자가 별도로 받은 `SAFETY_UP_SANDART_THREE_STYLE_ANCHORS_V1.zip`에만 포함. 공개 GitHub 미업로드. 영상/음성 미생성. 감독 스타일 승인 전 나머지 12개 대량 제작 금지.
