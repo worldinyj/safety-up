@@ -27,3 +27,10 @@
 - `docs/05_generation/FRAME_REVIEW_S01_S02_V32.md` and `production/frame_review_s01_s02_v32.json` are current handoff docs; update after director review.
 - S01 phone geometry across start/mid/end not fully consistent; `PHONE_GEOMETRY_QC_PENDING`. S02 one female mini-shot present; `BRAND_QC_PENDING` still applies.
 - No paid 6-second video generation until approval. **Next image stage S03 only after director chooses approve or revision.**
+
+## Stage S03 프레임 검토 2026-10-26 / V3.3
+- S03(12–18초) A 밸브 → 동일 남성 작업자 → 페이지폰 통화, 3장 검토용 이미지를 별도 ZIP으로 생성.
+- ZIP: `safety_up_S03_keyframes_REVIEW_V1.zip` SHA256 `6f6c7b0d36ef45956d0f97ce4b278445d81ec745f49e9a55265301bbab08837e`, 공개 GitHub 미업로드.
+- **S02 수화기 두 개 오류**: 최종 컷 후보를 `S02_F03_END_CORRECTED_V2.png`로 대체, 빈 거치대 및 수화기 1개 원칙.
+- S03 세 장은 기존 단독 실사 원본에서 각기 다른 크롭으로 구성. **네이티브 FHD 독립 생성 마스터가 아니므로 REVIEW_PENDING, MOTION_QC_PENDING**.
+- 이번 단계 완료 후 감독 검토가 이어지면 다음 S04 이미지 제작. 영상 생성 및 S05 최종 승인 아직 없음.

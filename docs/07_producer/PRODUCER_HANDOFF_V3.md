@@ -65,3 +65,10 @@ Ref image missing, fake device, wrong A label/pronunciation, woman as protagonis
 
 ## S01/S02 stage review note (V3.2)
 Before image-to-video generation, read `docs/05_generation/FRAME_REVIEW_S01_S02_V32.md` and `production/frame_review_s01_s02_v32.json`. Retrieve private `safety_up_S01_S02_keyframes_REVIEW_V1.zip` via operator if available. It contains six **preview candidates**, not native FHD masters. Mark S01 phone design and official KHNP CI as pending; respect human review before S03 or I2V.
+
+## Stage S03 V3.3 editorial anchors and S02 phone-physics correction
+- Read `docs/05_generation/FRAME_REVIEW_S03_V33.md` and `production/frame_review_s03_v33.json`.
+- Private handoff ZIP: `safety_up_S03_keyframes_REVIEW_V1.zip`, SHA256 `6f6c7b0d36ef45956d0f97ce4b278445d81ec745f49e9a55265301bbab08837e` (not in public repo).
+- Three 1920x1080 S03 candidate frames are **three editorial crops from ONE previously generated scene**; don't mark as individual independently generated FHD masters.
+- Replace defective S02 last frame showing duplicate handset with `S02_F03_END_CORRECTED_V2.png`. Physically one telephone receiver per device, wall cradle empty while worker holds it.
+- S03 spoken `알파 밸브 한 번 더 확인하겠습니다.`, sign `A`. Review before S04; do not batch I2V before approval.
