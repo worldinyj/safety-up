@@ -1,0 +1,90 @@
+{
+  "project": "pagephone-confession-sandart",
+  "scene": "S02",
+  "version": "V2_INTERIM",
+  "date_kst": "2026-10-26",
+  "status": "PREVIS_UPSCALED_IMAGES_NOT_I2V_MASTER",
+  "frame_count": 8,
+  "frame_resolution": [
+    1920,
+    1080
+  ],
+  "native_independent_hd": false,
+  "source_disclosure": "Image-generation attempts produced multi-panel 1672x941 storyboards. Cast elements extracted from approximately 188x216 portions of panels, enlarged and composited over S01-derived industrial backdrop. The original S01 phone images and full-frame artist-hand sand reference were also reused. 1920x1080 canvas does not equal independently generated native FHD characters.",
+  "package": {
+    "filename": "safety_up_S02_SANDART_PREVIS_V2_INTEGRATED.zip",
+    "sha256": "fc2faed4f202c20b84f877d37f613354f88d6d413158d8c39358d7a65266e616",
+    "members": 13,
+    "crc_pass": true
+  },
+  "contact_sheet": {
+    "name": "S02_CONTACT_SHEET_V2.jpg",
+    "sha256": "5a5723e8c5e4cb0b2f1a5e256c349a6f149d18b46654b5efa3a1ea42e48fc73f"
+  },
+  "audio_cue_sheet": {
+    "name": "S02_AUDIO_AND_TRANSITION_CUES_V2.csv",
+    "sha256": "d91b34c03549788f8df77356209b995cd330dfa773d54609b1db5bd50cb7584c"
+  },
+  "frames": [
+    {
+      "scene_time": "06.00",
+      "name": "S02_F00_S01_V3_END_BRIDGE.png",
+      "sha256": "b7a13c4d6d0573f1b9e1fa1cdf586c16bde9039742781c27760b09ea2e3c4331",
+      "origin": "S01 V3 anchor derived"
+    },
+    {
+      "scene_time": "06.30",
+      "name": "S02_F01_MALE1_UPSCALED_PREVIS.png",
+      "sha256": "7ab28d68861dfedcbb2bae8094554e7347524a437c55e10066237de200ca9fd6",
+      "origin": "panel crop / upscale"
+    },
+    {
+      "scene_time": "07.12",
+      "name": "S02_T01_ARTIST_HAND_TRANSITION.png",
+      "sha256": "68c403f164543dd4ec65c270a2806ffed2786464e16ed1fc2bf48be6d71b42cc",
+      "origin": "existing full-frame artist hand crop"
+    },
+    {
+      "scene_time": "07.45",
+      "name": "S02_F02_FEMALE_UPSCALED_PREVIS.png",
+      "sha256": "5de2ba0db8a6d6b0b4c09ea0301fc43e1a9b53681be7268e835a0a9d3123af2d",
+      "origin": "panel crop / upscale"
+    },
+    {
+      "scene_time": "08.48",
+      "name": "S02_T02_ARTIST_HAND_TRANSITION.png",
+      "sha256": "3f437f64628c02d7dbf36f183dcc5400e2bfd87abe63d5215fb77e4f94234b2e",
+      "origin": "existing full-frame artist hand crop"
+    },
+    {
+      "scene_time": "08.82",
+      "name": "S02_F03_MALE2_UPSCALED_PREVIS.png",
+      "sha256": "6efd3363c80d05c7719843de1696246897820a71df814841ed33d9049680f1dc",
+      "origin": "panel crop / upscale"
+    },
+    {
+      "scene_time": "09.75",
+      "name": "S02_T03_ARTIST_HAND_TRANSITION.png",
+      "sha256": "528cfc3e464d1d9a54f7cf5ec4977c0daeb8329b163231fc89cf39d4b35e45c6",
+      "origin": "existing full-frame artist hand crop"
+    },
+    {
+      "scene_time": "10.15",
+      "name": "S02_F04_S01_V3_PHONE_RETURN.png",
+      "sha256": "7d0ab76d120acdc277ed9bc9d3d451d518271e5bc1c7c05fdbbb2d0d434118dd",
+      "origin": "S01 V3 anchor derived"
+    }
+  ],
+  "qc": {
+    "image_file_integrity": "PASS",
+    "native_hd": "FAIL",
+    "s01_first_worker_identity": "PENDING",
+    "pagephone_design_identity": "PASS_ON_ANCHORS_ONLY",
+    "handset_in_hand_plus_empty_cradle": "PENDING",
+    "artist_hand_actual_motion": "NOT_TESTED",
+    "korean_script": "PASS_TEXT_ONLY",
+    "korean_audio_duration": "NOT_TESTED",
+    "i2v_authorized": false,
+    "human_approved": false
+  }
+}

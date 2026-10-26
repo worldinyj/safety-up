@@ -1,0 +1,9 @@
+global_start_sec,global_end_sec,track,korean_text,role,visual_instruction
+6.00,7.20,DIALOG_M1,"네, 알겠습니다.",male1,"speaking mouth, one handset"
+7.12,7.43,VISUAL_HAND_1,"",artist,"hand sweeps and redraws sand"
+7.30,8.50,DIALOG_F,"확인했습니다.",female,"speaking mouth must exist by onset"
+8.48,8.82,VISUAL_HAND_2,"",artist,"hand wipes female and forms male2"
+8.60,9.80,DIALOG_M2,"진행하겠습니다.",male2,"speaking mouth must exist by onset"
+9.75,10.15,VISUAL_HAND_3,"",artist,"hand clears worker and phone returns"
+9.90,11.90,VO_PAGEPHONE,"그보다 반가운 말이 있죠.",offscreen,"VO L-cut while hand transition ends; no human mouth"
+11.90,12.00,AMB,"",plant,"to S03"

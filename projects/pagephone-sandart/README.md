@@ -58,3 +58,10 @@ V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc
 ## 이미지 생성 직후 필수 통합 QC
 
 씬별 이미지 생성이 끝나면 **이미지·프롬프트·나레이션·발화 시간·전후 씬 연속성·파일 무결성**을 한 번에 검수합니다. 기준: [`docs/05_IMAGE_POSTGEN_BATCH_QC_V1.md`](docs/05_IMAGE_POSTGEN_BATCH_QC_V1.md). 현 S02 검수: [`scenes/S02/QC_INTEGRATED_V1.md`](scenes/S02/QC_INTEGRATED_V1.md). 부족한 자료는 `PENDING`/`NOT_TESTED`, 실패는 `FAIL`로 기록하고 최종 승인이나 I2V 생성으로 진행하지 않습니다.
+
+## S02 V2 제작 복구 및 통합 배치검수
+
+- 현재 이미지 검토본: `safety_up_S02_SANDART_PREVIS_V2_INTEGRATED.zip` (SHA256 `fc2faed4f202c20b84f877d37f613354f88d6d413158d8c39358d7a65266e616`), PNG 8장·1920×1080 **업스케일 컴포지트**.
+- 직원 독립 네이티브 HD 원화 생성은 **실패/미완료**. 영상 생성기에서 여러 패널이 들어간 스토리보드를 반복 출력하여 임시 검토본만 제작했으며, I2V에 아직 투입하지 않습니다.
+- [통합 QC V2](scenes/S02/QC_INTEGRATED_V2.md), [씬별 영상 프롬프트](scenes/S02/I2V_SHOT_PROMPTS_V2.md), [오디오·손 전환 시점](scenes/S02/AUDIO_CUES_V2.csv), [프레임 SHA](scenes/S02/FRAME_MANIFEST_PREVIS_V2.json).
+- 최신 제작 상태: [SCENE_REGISTRY_V5.json](production/SCENE_REGISTRY_V5.json). 이전 V1–V4는 감사 추적을 위해 보존합니다.
