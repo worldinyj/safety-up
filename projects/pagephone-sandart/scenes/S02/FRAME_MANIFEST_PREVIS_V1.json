@@ -21,8 +21,9 @@
   },
   "origin": "S02 scenes are crops of one 2048x768 generated storyboard with captions removed; S01 boundary and final phone come from exact S01 V3 images; artistic preview only.",
   "reference_s01": {
-    "last_image_sha256": "5cb1f0c8773a8c128968690b5f33b4f7b7a11d46e9ea8970e2fc8174b9e8442f88",
-    "note": "External S01 v3 local anchor; not independently uploaded to GitHub"
+    "last_image_sha256": "03f7169887c9140b70c191c00c7fa424cbb94154abfad264d727e90902a530ca",
+    "note": "External S01 v3 local anchor; not independently uploaded to GitHub",
+    "phone_image_sha256": "4b32d963b001c3c3c33da21e25789badc79fbee2511146f1a8cb57679b1fdfd1"
   },
   "package": {
     "filename": "safety_up_S02_SANDART_KEYFRAMES_PREVIS_V1.zip",
