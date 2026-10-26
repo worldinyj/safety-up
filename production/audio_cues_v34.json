@@ -1,0 +1,223 @@
+{
+  "version": "V3.4",
+  "date": "2026-10-26",
+  "status": "AUDIO_TIME_PLAN_PENDING_TTS_DURATIONS",
+  "project": "SAFETY UP / 페이지폰의 고백",
+  "language": "ko-KR",
+  "dialogue_generation": "ElevenLabs Korean separate assets; video model should generate silent/muted images",
+  "video": {
+    "duration_s": 30,
+    "clips": 5,
+    "clip_duration_s": 6,
+    "frame_rate_target": 30,
+    "frames_total": 900
+  },
+  "speech_fidelity": {
+    "display_label": "V11",
+    "spoken_exact": "브이십일",
+    "field_line": "브이십일 밸브 한 번 더 확인하겠습니다.",
+    "review_flag": "V11 written normally reads 브이십일? Korean numeral '11' conventionally reads 십일, but user explicitly chose 브이십일. Preserve exact director phonetic instruction, show divergence in QC."
+  },
+  "final_copy": [
+    "멈춰 말하는 팔로우십",
+    "귀 기울이는 리더십",
+    "그것이 원자력안전문화입니다."
+  ],
+  "opening_ai_notice": {
+    "time_s": [
+      0.5,
+      2.5
+    ],
+    "position": "bottom-right",
+    "text": "본 영상은 AI를 활용하여 제작되었습니다."
+  },
+  "closing_ai_notice": {
+    "time_s": [
+      28,
+      30
+    ],
+    "position": "bottom-right",
+    "text": "본 영상은 AI를 활용하여 제작되었습니다."
+  },
+  "endcard": {
+    "time_s": [
+      27,
+      30
+    ],
+    "source": "IMG_9558.jpeg"
+  },
+  "cues": [
+    {
+      "id": "FX_001",
+      "clip": "S01",
+      "start_s": 0,
+      "end_s": 0.8,
+      "role": "호출음",
+      "role_type": "sound_effect",
+      "text": "페이지폰 호출 신호",
+      "on_screen": "실내에 설치된 페이지폰",
+      "lip_sync": false,
+      "voice_asset": null
+    },
+    {
+      "id": "VO_001",
+      "clip": "S01",
+      "start_s": 0.8,
+      "end_s": 3.5,
+      "role": "페이지폰",
+      "role_type": "narration",
+      "text": "안녕하세요. 전 페이지폰입니다.",
+      "on_screen": "페이지폰 정면/모니터",
+      "lip_sync": false,
+      "voice_asset": "VOICE_PAGEPHONE"
+    },
+    {
+      "id": "VO_002",
+      "clip": "S01",
+      "start_s": 3.5,
+      "end_s": 5.8,
+      "role": "페이지폰",
+      "role_type": "narration",
+      "text": "제가 자주 듣는 말이요?",
+      "on_screen": "페이지폰에 서서히 접근",
+      "lip_sync": false,
+      "voice_asset": "VOICE_PAGEPHONE"
+    },
+    {
+      "id": "D_001",
+      "clip": "S02",
+      "start_s": 6,
+      "end_s": 7.2,
+      "role": "남성 직원 1",
+      "role_type": "onscreen_dialogue",
+      "text": "네, 알겠습니다.",
+      "on_screen": "남성 직원 1 수화기 통화",
+      "lip_sync": true,
+      "voice_asset": "VOICE_STAFF_M1"
+    },
+    {
+      "id": "D_002",
+      "clip": "S02",
+      "start_s": 7.3,
+      "end_s": 8.5,
+      "role": "여성 직원",
+      "role_type": "onscreen_dialogue",
+      "text": "확인했습니다.",
+      "on_screen": "여성 직원 한 꼭지 수화기 통화",
+      "lip_sync": true,
+      "voice_asset": "VOICE_STAFF_F"
+    },
+    {
+      "id": "D_003",
+      "clip": "S02",
+      "start_s": 8.6,
+      "end_s": 9.8,
+      "role": "남성 직원 2",
+      "role_type": "onscreen_dialogue",
+      "text": "진행하겠습니다.",
+      "on_screen": "남성 직원 2 수화기 통화",
+      "lip_sync": true,
+      "voice_asset": "VOICE_STAFF_M2"
+    },
+    {
+      "id": "VO_003",
+      "clip": "S02",
+      "start_s": 9.9,
+      "end_s": 11.9,
+      "role": "페이지폰",
+      "role_type": "narration",
+      "text": "그보다 반가운 말이 있죠.",
+      "on_screen": "작업자 대사 종료 후 페이지폰/정지한 통화 컷",
+      "lip_sync": false,
+      "voice_asset": "VOICE_PAGEPHONE"
+    },
+    {
+      "id": "AMB_001",
+      "clip": "S03",
+      "start_s": 12,
+      "end_s": 14.4,
+      "role": "현장 환경음",
+      "role_type": "ambience",
+      "text": "직원이 V11 밸브를 살핀 뒤 수화기를 든다. 말은 하지 않는다.",
+      "on_screen": "12.0~13.6 육안 확인 → 13.6~14.4 수화기 수취",
+      "lip_sync": false,
+      "voice_asset": null
+    },
+    {
+      "id": "D_004",
+      "clip": "S03",
+      "start_s": 14.4,
+      "end_s": 17.8,
+      "role": "남성 현장 직원",
+      "role_type": "onscreen_dialogue",
+      "text": "브이십일 밸브 한 번 더 확인하겠습니다.",
+      "on_screen": "14.4초부터 이미 수화기를 귀에 대고 말하는 동일 남성 직원",
+      "lip_sync": true,
+      "voice_asset": "VOICE_FIELD_M"
+    },
+    {
+      "id": "D_005",
+      "clip": "S04",
+      "start_s": 18,
+      "end_s": 21.9,
+      "role": "남성 리더",
+      "role_type": "onscreen_dialogue",
+      "text": "오케이. 작업 잠시 멈추고 같이 확인합시다.",
+      "on_screen": "제어실의 남성 리더가 수화기를 들고 말함",
+      "lip_sync": true,
+      "voice_asset": "VOICE_LEADER_M"
+    },
+    {
+      "id": "VO_004",
+      "clip": "S04",
+      "start_s": 22,
+      "end_s": 23.9,
+      "role": "페이지폰",
+      "role_type": "narration",
+      "text": "바로 이런 순간이죠.",
+      "on_screen": "리더는 말하지 않고 고개를 끄덕임/페이지폰 화면",
+      "lip_sync": false,
+      "voice_asset": "VOICE_PAGEPHONE"
+    },
+    {
+      "id": "VO_005",
+      "clip": "S05",
+      "start_s": 24,
+      "end_s": 27.5,
+      "role": "페이지폰",
+      "role_type": "narration",
+      "text": "안전문화는, 연결된 목소리에서 시작됩니다.",
+      "on_screen": "24~27초 실내 공동 확인, 27초 엔딩 전경 전환",
+      "lip_sync": false,
+      "voice_asset": "VOICE_PAGEPHONE"
+    },
+    {
+      "id": "BGM_END",
+      "clip": "S05",
+      "start_s": 27.5,
+      "end_s": 30,
+      "role": "BGM",
+      "role_type": "music",
+      "text": "대사 없음. 석양 엔딩과 3행 카피, AI 제작 고지",
+      "on_screen": "27~30초 원전 석양 엔딩",
+      "lip_sync": false,
+      "voice_asset": null
+    }
+  ],
+  "production_gates": {
+    "voice_audio_files": "NOT_GENERATED",
+    "actual_durations": "NOT_VERIFIED",
+    "word_lip_sync": "NOT_VERIFIED",
+    "video_clips": "NOT_GENERATED",
+    "mix": "NOT_GENERATED"
+  },
+  "rules": [
+    "No English language speech.",
+    "Do not let video-generation model synthesize dialogue or substitute other words.",
+    "Generate separate Korean audio in ElevenLabs, obtain exact lengths and align every lip-sync speaker.",
+    "S03 phone must be off wall cradle before 14.4s; one receiver per device.",
+    "S02 separate two-second shots or tight edits; background field mouths closed during pagephone VO.",
+    "No visual label larger than a normal V11 equipment identification plate.",
+    "All times first-pass estimated; TTS measurements may shift cues within fixed total 30s."
+  ]
+}

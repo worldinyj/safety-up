@@ -1,3 +1,7 @@
+> **최신 지시 V3.4 (2026-10-26):** 음성·밸브 명칭에 관한 이 문서의 `A/알파` 내용은 **폐기**되었습니다. **화면 V11 (작은 명판), 한국어 대사 “브이십일 밸브 한 번 더 확인하겠습니다.”**가 현행 지시입니다. `docs/04_audio/AUDIO_CUESHEET_V34.md` 및 `production/audio_cues_v34.json`를 우선하여 읽으십시오. 화자·음성 시점도 V3.4가 우선합니다.
+
+**최신 제작 기준: [한국어 음성·내레이션 큐시트 V3.4](docs/04_audio/AUDIO_CUESHEET_V34.md) / [한국어 I2V 프롬프트 V3.4](docs/05_generation/KOREAN_VIDEO_PROMPTS_V34.md) / [음성 JSON](production/audio_cues_v34.json).**
+
 # SAFETY UP — 「페이지폰의 고백」
 
 **CURRENT = V3 / 2026-10-26 / Grokbot production preparation**

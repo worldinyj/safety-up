@@ -17,9 +17,9 @@
     }
   },
   "creative": {
-    "valve_label": "A",
-    "valve_spoken": "알파",
-    "field_line": "알파 밸브 한 번 더 확인하겠습니다.",
+    "valve_label": "V11",
+    "valve_spoken": "브이십일",
+    "field_line": "브이십일 밸브 한 번 더 확인하겠습니다.",
     "leader_line": "오케이. 작업 잠시 멈추고 같이 확인합시다",
     "pagephone_line": "바로 이런 순간이죠. 안전문화는, 연결된 목소리에서 시작됩니다.",
     "screen_greeting": [
@@ -31,7 +31,9 @@
       "귀 기울이는 리더십",
       "그것이 원자력안전문화입니다."
     ],
-    "ai_notice": "본 영상은 AI를 활용하여 제작되었습니다."
+    "ai_notice": "본 영상은 AI를 활용하여 제작되었습니다.",
+    "_latest_audio_source": "production/audio_cues_v34.json",
+    "_display_spoken_discrepancy": "User-specified: display V11; Korean voice says 브이십일. Require explicit QA."
   },
   "references": [
     {
@@ -73,7 +75,12 @@
         }
       ],
       "footage_status": "NOT_GENERATED",
-      "special_edit": null
+      "special_edit": null,
+      "audio_cues": [
+        "FX_001",
+        "VO_001",
+        "VO_002"
+      ]
     },
     {
       "id": "S02",
@@ -100,7 +107,13 @@
         }
       ],
       "footage_status": "NOT_GENERATED",
-      "special_edit": "three_2s_worker_montage_no_morph"
+      "special_edit": "three_2s_worker_montage_no_morph",
+      "audio_cues": [
+        "D_001",
+        "D_002",
+        "D_003",
+        "VO_003"
+      ]
     },
     {
       "id": "S03",
@@ -127,7 +140,14 @@
         }
       ],
       "footage_status": "NOT_GENERATED",
-      "special_edit": null
+      "special_edit": null,
+      "valve_label": "V11",
+      "spoken_line": "브이십일 밸브 한 번 더 확인하겠습니다.",
+      "audio_cues": [
+        "AMB_001",
+        "D_004"
+      ],
+      "visual_rework": "15-second anchor must have receiver in hand by spoken line, if not rerender bridge."
     },
     {
       "id": "S04",
@@ -154,7 +174,11 @@
         }
       ],
       "footage_status": "NOT_GENERATED",
-      "special_edit": null
+      "special_edit": null,
+      "audio_cues": [
+        "D_005",
+        "VO_004"
+      ]
     },
     {
       "id": "S05",
@@ -181,14 +205,18 @@
         }
       ],
       "footage_status": "NOT_GENERATED",
-      "special_edit": "0_3s_indoor_joint_check_then_3_6s_separate_sunset_end_card"
+      "special_edit": "0_3s_indoor_joint_check_then_3_6s_separate_sunset_end_card",
+      "audio_cues": [
+        "VO_005",
+        "BGM_END"
+      ]
     }
   ],
   "gates": {
     "storyboard": "V3_DOCUMENTED",
     "individual_keyframes": "NOT_LOCKED",
     "image_to_video": "NOT_STARTED",
-    "audio": "NOT_STARTED",
+    "audio": "V3.4_CUE_SHEET_DOCUMENTED_TTS_NOT_RECORDED",
     "edit": "NOT_STARTED",
     "human_approval": "PENDING"
   },
@@ -211,6 +239,28 @@
       "jacket patch",
       "tracking 6 seconds",
       "release rights review"
+    ]
+  },
+  "audio_v34": {
+    "source": "production/audio_cues_v34.json",
+    "notes": "Times first-pass only; post TTS actual duration verification required.",
+    "language": "ko-KR",
+    "narrator": "PAGEPHONE",
+    "onscreen_speakers": [
+      "STAFF_M1",
+      "STAFF_F",
+      "STAFF_M2",
+      "FIELD_M",
+      "LEADER_M"
+    ],
+    "video_audio_policy": "silent-image-to-video, Korean ElevenLabs added in post",
+    "handset_pickup_s": [
+      13.6,
+      14.4
+    ],
+    "field_speech_s": [
+      14.4,
+      17.8
     ]
   }
 }

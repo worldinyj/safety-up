@@ -1,3 +1,12 @@
+> **최신 지시 V3.4 (2026-10-26):** 음성·밸브 명칭에 관한 이 문서의 `A/알파` 내용은 **폐기**되었습니다. **화면 V11 (작은 명판), 한국어 대사 “브이십일 밸브 한 번 더 확인하겠습니다.”**가 현행 지시입니다. `docs/04_audio/AUDIO_CUESHEET_V34.md` 및 `production/audio_cues_v34.json`를 우선하여 읽으십시오. 화자·음성 시점도 V3.4가 우선합니다.
+
+## 최상위 한국어 음성 제작 지시 V3.4
+- `docs/04_audio/AUDIO_CUESHEET_V34.md`, `docs/05_generation/KOREAN_VIDEO_PROMPTS_V34.md`, `production/audio_cues_v34.json`를 가장 먼저 읽을 것.
+- **영상 모델 임의 영어 음성/영어 나레이션/애드리브 금지**. 가능하면 무음 I2V 출력. 말하는 인물의 입 모양은 한국어 ElevenLabs 실제 녹음 후 별도 싱크.
+- 페이지폰 내레이션은 사람의 입이 움직이는 대사가 아니다. S04에서 22초 이후 리더의 입 움직임 중단.
+- S03 12~13.6초 점검, 13.6~14.4초 수화기 들어 귀에 대기, 14.4~17.8초 **“브이십일 밸브 한 번 더 확인하겠습니다.”**. 패널 태그 **작게 `V11`**. 표기/발음 불일치 감독 검수 필요.
+- 인물/페이지폰/로고 영상 품질 게이트는 기존과 동일. 이전 `A/알파` 지시를 생성에 사용하지 말 것.
+
 # GROKBOT PRODUCER MASTER HANDOFF — V3 CURRENT
 **Repository:** https://github.com/worldinyj/safety-up  
 **Branch:** `feat/pagephone-confession-v1`  
