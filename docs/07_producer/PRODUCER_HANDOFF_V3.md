@@ -81,3 +81,9 @@ Before image-to-video generation, read `docs/05_generation/FRAME_REVIEW_S01_S02_
 - Three 1920x1080 S03 candidate frames are **three editorial crops from ONE previously generated scene**; don't mark as individual independently generated FHD masters.
 - Replace defective S02 last frame showing duplicate handset with `S02_F03_END_CORRECTED_V2.png`. Physically one telephone receiver per device, wall cradle empty while worker holds it.
 - S03 spoken `알파 밸브 한 번 더 확인하겠습니다.`, sign `A`. Review before S04; do not batch I2V before approval.
+
+## S04 frame review V3.5 — do not mistake generated 6-panel storyboard for I2V master
+- Open `docs/05_generation/FRAME_REVIEW_S04_V35.md` and `production/frame_review_s04_v35.json`.
+- Private ZIP `safety_up_S04_keyframes_REVIEW_V1.zip` (SHA256 `d5d9e86d553f4e9b0515ff00c23227a40f8d8d79ddcfc2f44454692c33814c3d`), **not in GitHub**.
+- Three S04 review PNGs are re-framed versions of one 1672x941 face master, NOT three independently generated FHD masters. Original device match is **FAIL/PENDING**, as handset is dark grey not ivory.
+- 18–21.9s Korean male-leader line exact, 22–23.9s Korean PAGEPHONE VO exact; leader closes mouth during pagephone VO. Use user-approved real device reference to regenerate/refine before LOCK.

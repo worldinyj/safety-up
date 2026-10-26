@@ -43,3 +43,10 @@
 - **S02 수화기 두 개 오류**: 최종 컷 후보를 `S02_F03_END_CORRECTED_V2.png`로 대체, 빈 거치대 및 수화기 1개 원칙.
 - S03 세 장은 기존 단독 실사 원본에서 각기 다른 크롭으로 구성. **네이티브 FHD 독립 생성 마스터가 아니므로 REVIEW_PENDING, MOTION_QC_PENDING**.
 - 이번 단계 완료 후 감독 검토가 이어지면 다음 S04 이미지 제작. 영상 생성 및 S05 최종 승인 아직 없음.
+
+## S04 이미지 및 한국어 대사 검토 V3.5 · 2026-10-26
+- 18–24초 S04 리더 응답의 START/MID/END **3개 PNG 검토 후보** 제작. 1개의 실사 마스터를 리프레임한 것으로 인물·제어실 동일, 독립 네이티브 FHD 3장 아님.
+- 로컬 ZIP `safety_up_S04_keyframes_REVIEW_V1.zip` SHA256 `d5d9e86d553f4e9b0515ff00c23227a40f8d8d79ddcfc2f44454692c33814c3d` 공개 GitHub 미업로드.
+- 18–21.9초 **리더 직접 한국어 대사**, 22–23.9초 **페이지폰 한국어 VO**. 실제 음성 TTS/립싱크 미생성.
+- 실사 마스터 수화기 회색 ≠ 실물 페이지폰 아이보리. **DEVICE_QC_REWORK**; 감독 이미지 승인 전 `REVIEW_PENDING`. S05로 진행하되 S04 판정 후 단계별 진행.
+- 상세: `docs/05_generation/FRAME_REVIEW_S04_V35.md`, `production/frame_review_s04_v35.json`.

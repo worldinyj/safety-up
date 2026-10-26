@@ -178,7 +178,14 @@
       "audio_cues": [
         "D_005",
         "VO_004"
-      ]
+      ],
+      "frame_review_document": "docs/05_generation/FRAME_REVIEW_S04_V35.md",
+      "frame_review_status": "REVIEW_PENDING_SINGLE_SOURCE_RESAMPLE",
+      "phone_visual_status": "GREY_HANDSET_REWORK_REQUIRED",
+      "audio_language": "ko-KR",
+      "leader_line": "오케이. 작업 잠시 멈추고 같이 확인합시다.",
+      "pagephone_vo": "바로 이런 순간이죠.",
+      "audio_status": "SCRIPT_TIMED_NOT_RECORDED"
     },
     {
       "id": "S05",

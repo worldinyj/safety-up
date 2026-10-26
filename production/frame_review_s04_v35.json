@@ -1,0 +1,57 @@
+{
+  "schema_version": "3.5-review",
+  "title": "페이지폰의 고백",
+  "scene": "S04",
+  "time_range": [
+    18,
+    24
+  ],
+  "frame_times": [
+    18,
+    21,
+    24
+  ],
+  "review_archive": "safety_up_S04_keyframes_REVIEW_V1.zip",
+  "archive_sha256": "d5d9e86d553f4e9b0515ff00c23227a40f8d8d79ddcfc2f44454692c33814c3d",
+  "artifact_location": "user-downloaded private ZIP only; not public GitHub",
+  "frames": [
+    {
+      "id": "S04_F01_START",
+      "time_s": 18,
+      "local_file": "frames/S04_F01_START.png"
+    },
+    {
+      "id": "S04_F02_MID",
+      "time_s": 21,
+      "local_file": "frames/S04_F02_MID.png"
+    },
+    {
+      "id": "S04_F03_END",
+      "time_s": 24,
+      "local_file": "frames/S04_F03_END.png"
+    }
+  ],
+  "source": "single photoreal independent prior master 1672x941; 1920x1080 crop/resample",
+  "status": "REVIEW_PENDING",
+  "brand_status": "QC_PENDING",
+  "phone_consistency": "QC_REWORK_DARK_HANDSET_NOT_IVORY",
+  "motion_status": "NO_ACTUAL_6S_VIDEO",
+  "on_screen_speech": {
+    "speaker": "male leader",
+    "language": "ko-KR",
+    "start_s": 18,
+    "end_s": 21.9,
+    "exact": "오케이. 작업 잠시 멈추고 같이 확인합시다.",
+    "lip_sync": "REQUIRED_AFTER_TTS"
+  },
+  "voiceover": {
+    "speaker": "pagephone",
+    "language": "ko-KR",
+    "start_s": 22,
+    "end_s": 23.9,
+    "exact": "바로 이런 순간이죠.",
+    "leader_mouth": "CLOSED"
+  },
+  "director_approval": false,
+  "next_scene": "S05_REVIEW_AFTER_S04"
+}

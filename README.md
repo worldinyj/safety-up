@@ -40,3 +40,6 @@ V1/V2는 이전 판본·기록이고 향후 자동 영상 생성 기준이 아�
 - [공식 CI 검수·수정 기준](docs/03_visual/KHNP_CI_QC_V31.md)
 - [로고 합성 도우미](scripts/apply_official_ci_overlay.py) · [위치 좌표 템플릿](production/ci_placements_TEMPLATE_v31.json)
 - **브랜드 상태:** `BRAND_QC_PENDING`. 기존 생성 이미지의 KHNP 유사 로고는 확인 전 승인 금지. 정확한 공식 PNG를 별도 합성 후 이미지/영상 연속성 검수.
+
+### S04 image review V3.5 (current candidate set)
+- [S04 18~24초 3프레임 검토 및 보정사항](docs/05_generation/FRAME_REVIEW_S04_V35.md) / [매니페스트](production/frame_review_s04_v35.json). 사람 리더 18–21.9초 직접 한국어 대사, PAGEPHONE 22–23.9초 별도 한국어 VO. 실제 이미지 ZIP은 별도 전달.
