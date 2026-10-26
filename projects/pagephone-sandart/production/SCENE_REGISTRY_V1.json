@@ -1,0 +1,85 @@
+{
+  "project": "pagephone-confession-sandart",
+  "version": "1.0",
+  "updated_at_kst": "2026-10-26",
+  "repo": "worldinyj/safety-up",
+  "branch": "feat/pagephone-sandart-v1",
+  "root": "projects/pagephone-sandart",
+  "source_story_branch": "feat/pagephone-confession-v1",
+  "master_status": "PREPRODUCTION",
+  "format": {
+    "duration_sec": 30,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "aspect": "16:9"
+  },
+  "media_policy": "Binary frames and ZIP are staged outside public GitHub; SHA manifests committed; do not mark as uploaded.",
+  "scenes": [
+    {
+      "id": "S01",
+      "range_sec": [
+        0,
+        6
+      ],
+      "images": "DIRECTOR_REVIEW_PENDING",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "keyframes": [
+        "scenes/S01/frames/S01_F01_START_REVIEW_V1.png",
+        "scenes/S01/frames/S01_F02_MID_REVIEW_V1.png",
+        "scenes/S01/frames/S01_F03_END_REVIEW_V1.png"
+      ],
+      "keyframe_presence_in_git": false,
+      "zip_sha256": "2c8ba16749b0014a5fc89f3270c84322a3937d5da3c53e584775f472801eb877"
+    },
+    {
+      "id": "S02",
+      "range_sec": [
+        6,
+        12
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false
+    },
+    {
+      "id": "S03",
+      "range_sec": [
+        12,
+        18
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "visual_valve_label": "V11",
+      "spoken_label_ko": "브이십일"
+    },
+    {
+      "id": "S04",
+      "range_sec": [
+        18,
+        24
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false
+    },
+    {
+      "id": "S05",
+      "range_sec": [
+        24,
+        30
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "split_at_sec": 27
+    }
+  ]
+}
