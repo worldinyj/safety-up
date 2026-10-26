@@ -72,3 +72,11 @@ V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc
 - **[S05 V1 통합 검수](scenes/S05/S05_V1_INTEGRATED_QC.md)** / **[영상 프롬프트·한국어 오디오](scenes/S05/S05_V1_I2V_AND_AUDIO.md)** / **[제작 상태 V12](production/SCENE_REGISTRY_V12.json)**.
 - S05 V1 검토 패키지: `safety_up_S05_CONTROLLED_TRANSITIONS_V1_INTEGRATED.zip` (SHA256 `12779584e8c72de17f8725d4c1e7fadb827434187ff2e116590bac73aca0632e`). PNG·MP4·ZIP은 다운로드 패키지로만 전달하고 **GitHub 공개 바이너리 업로드는 하지 않았습니다.**
 - 현재 24초 영상에는 S01이 포함되지 않고 실제 ElevenLabs 한국어 음원·BGM·전체 30초 합본이 없습니다. `FINAL_LOCKED=false`.
+
+## 15개 앵커 이미지 전체 화풍 감사
+
+- [15프레임 실제 영상·화풍 통합 감사](docs/07_FIFTEEN_FRAME_VISUAL_UNITY_AUDIT_V1.md)
+- [새 15개 기준 앵커 마스터 계획](docs/08_FIFTEEN_ANCHOR_MASTER_PLAN_V1.md)
+- [최신 레지스트리 V13](production/SCENE_REGISTRY_V13.json)
+- S04 리더의 이중 노출과 S05 평면 벡터 석양은 **최종 영상 사용 불허**. S02 V5는 사용자가 편집 참고용으로 선택한 버전으로 보존.
+- 사용자의 다운로드 검수 패키지에는 실제 15대표 프레임 컨택트시트 + 모래 전환 중간 프레임 19장 + 장면별 해시 + 독립 검수 기록을 포함합니다. 바이너리 자체는 GitHub 미업로드.
