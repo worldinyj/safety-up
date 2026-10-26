@@ -43,3 +43,7 @@ V1/V2는 이전 판본·기록이고 향후 자동 영상 생성 기준이 아�
 
 ### S04 image review V3.5 (current candidate set)
 - [S04 18~24초 3프레임 검토 및 보정사항](docs/05_generation/FRAME_REVIEW_S04_V35.md) / [매니페스트](production/frame_review_s04_v35.json). 사람 리더 18–21.9초 직접 한국어 대사, PAGEPHONE 22–23.9초 별도 한국어 VO. 실제 이미지 ZIP은 별도 전달.
+
+### S05 검토 단계 V3.6
+- [S05 24–30초 이미지 및 최종 엔딩 검토](docs/05_generation/FRAME_REVIEW_S05_V36.md) / [프레임 기록](production/frame_review_s05_v36.json)
+- 현장 공동확인 24–27초, 선택한 석양 원전 엔딩 27–30초. 실내 프리비즈의 V11 밸브 동일성/이미지 원본 해상도는 **REWORK REQUIRED**. 사용자 인가 전 `LOCKED` 아님.

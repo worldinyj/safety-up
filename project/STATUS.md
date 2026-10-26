@@ -50,3 +50,12 @@
 - 18–21.9초 **리더 직접 한국어 대사**, 22–23.9초 **페이지폰 한국어 VO**. 실제 음성 TTS/립싱크 미생성.
 - 실사 마스터 수화기 회색 ≠ 실물 페이지폰 아이보리. **DEVICE_QC_REWORK**; 감독 이미지 승인 전 `REVIEW_PENDING`. S05로 진행하되 S04 판정 후 단계별 진행.
 - 상세: `docs/05_generation/FRAME_REVIEW_S04_V35.md`, `production/frame_review_s04_v35.json`.
+
+## S05 마지막 6초 프리비즈 V3.6 (2026-10-26)
+- 24초 실내 공동 확인 → 27초 석양 원전 전경 → 30초 카피/AI고지 프레임, 프리비즈 PNG 3장과 26.5초 브리지 1장 제공.
+- 로컬 다운로드 ZIP `safety_up_S05_keyframes_REVIEW_V1.zip` SHA256 `4cfcc751ebbc66565c6a5ac6c049d6c4d9ee1578e0d534e809032518cb6a0bad` 공개 GitHub 미업로드.
+- **핵심 주의:** 실내 컷은 소형 스토리보드 크롭/확대; S03 V11 밸브 청색 플랜지·노란 링과 동일성 불충분. **VALVE_GEOMETRY_QC_FAIL / REWORK_REQUIRED**.
+- 엔딩 컷은 사용자 선택 `IMG_9558.jpeg` 기반; 고화질 배경과 정확한 카피 편집 마스터 별도 제작 필요.
+- 화자는 페이지폰 한국어 VO만. 두 남성은 S05에서 직접 말하지 않음.
+- 파일/검수: `docs/05_generation/FRAME_REVIEW_S05_V36.md`, `production/frame_review_s05_v36.json`.
+- S01~S05 문서/검토용 컷 구성은 존재하나 15개 **네이티브 영상생성 마스터가 모두 승인된 것은 아님**. 보류 게이트를 채우기 전 최종 통합 마스터 ZIP으로 발표하지 말 것.

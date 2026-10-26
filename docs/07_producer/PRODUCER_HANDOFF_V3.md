@@ -87,3 +87,10 @@ Before image-to-video generation, read `docs/05_generation/FRAME_REVIEW_S01_S02_
 - Private ZIP `safety_up_S04_keyframes_REVIEW_V1.zip` (SHA256 `d5d9e86d553f4e9b0515ff00c23227a40f8d8d79ddcfc2f44454692c33814c3d`), **not in GitHub**.
 - Three S04 review PNGs are re-framed versions of one 1672x941 face master, NOT three independently generated FHD masters. Original device match is **FAIL/PENDING**, as handset is dark grey not ivory.
 - 18–21.9s Korean male-leader line exact, 22–23.9s Korean PAGEPHONE VO exact; leader closes mouth during pagephone VO. Use user-approved real device reference to regenerate/refine before LOCK.
+
+## Latest S05 image review V3.6: high priority correction
+- Read `docs/05_generation/FRAME_REVIEW_S05_V36.md` and `production/frame_review_s05_v36.json` prior to any S05 I2V.
+- Local ZIP `safety_up_S05_keyframes_REVIEW_V1.zip` SHA256 `4cfcc751ebbc66565c6a5ac6c049d6c4d9ee1578e0d534e809032518cb6a0bad` is not in public GitHub.
+- **24–27s**: two MEN in same indoor plant, jointly visually verify exact SAME V11 valve as S03. This supplied indoor STILL is a low-detail crop from a storyboard, **not production-ready**. S03 red handwheel/gray valve/blue flange/yellow ring must match across sequence.
+- **27–30s**: cut to operator-approved `IMG_9558.jpeg` sunset card. End exact 3-line title and AI notice. Do NOT synthesize outdoor phone or spatial morph.
+- S05 audio **pagephone Korean voiceover ONLY**, no worker speaking. Voice may continue to 27.5s. Human approval needed for final video.

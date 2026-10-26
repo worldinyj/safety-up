@@ -216,6 +216,19 @@
       "audio_cues": [
         "VO_005",
         "BGM_END"
+      ],
+      "review_doc": "docs/05_generation/FRAME_REVIEW_S05_V36.md",
+      "review_status": "REVIEW_PENDING_REWORK_REQUIRED",
+      "voice": "페이지폰 VO만: 안전문화는, 연결된 목소리에서 시작됩니다.",
+      "valve_visual": "V11",
+      "valve_spoken": "브이십일",
+      "end_card_transition_s": 27,
+      "images_quality": "STORYBOARD_CROP_UPSCALED_NOT_NATIVE_MASTER",
+      "quality_blockers": [
+        "VALVE_GEOMETRY_MISMATCH_S03",
+        "S04_LEADER_IDENTITY_CHECK",
+        "KHNP_CI_PENDING",
+        "NATIVE_RESOLUTION_INDOOR_IMAGES_REQUIRED"
       ]
     }
   ],
