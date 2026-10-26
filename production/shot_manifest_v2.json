@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.0",
+  "project": "SAFETY UP",
+  "title": "페이지폰의 고백",
+  "branch": "feat/pagephone-confession-v1",
+  "revision": "2026-10-26",
+  "type": "nuclear_safety_culture",
+  "format": {
+    "duration_seconds": 30,
+    "clip_count": 5,
+    "seconds_each": 6,
+    "aspect_ratio": "16:9",
+    "final_width": 1920,
+    "final_height": 1080,
+    "final_container": "MP4",
+    "max_bytes": 500000000,
+    "ai_notice_both_ends": true
+  },
+  "audio": {
+    "tts_provider_planned": "ElevenLabs",
+    "bgm_provider": "Google Flow / exact product pending verification",
+    "paging_tone_first": true
+  },
+  "reference_photo": {
+    "filename": "IMG_9556.jpeg",
+    "storage": "conversation attachment only; NOT yet in repository",
+    "publication_status": "do-not-publicize-before-review"
+  },
+  "characters": {
+    "A": "male field technician; S03 S05",
+    "B": "male leader; S04 S05",
+    "F": "female staff member; one S02 montage beat only"
+  },
+  "fixed_lines": {
+    "field_worker": "21번 밸브 한 번 더 확인하겠습니다.",
+    "leader": "오케이. 작업 잠시 멈추고 같이 확인합시다",
+    "pagephone": "바로 이런 순간이죠. 안전문화는, 연결된 목소리에서 시작됩니다.",
+    "final_copy": [
+      "멈춰 말하는 팔로우십",
+      "귀 기울이는 리더십",
+      "그것이 원자력안전문화입니다."
+    ],
+    "ai_notice": "본 영상은 AI를 활용하여 제작되었습니다.",
+    "screen_greeting": [
+      "안녕하세요.",
+      "전 페이지폰입니다."
+    ]
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 6,
+      "location": "indoor-equipment-pipe-gallery",
+      "characters": [],
+      "keyframe": "KF_OPEN",
+      "status": "DRAFT"
+    },
+    {
+      "id": "S02",
+      "start": 6,
+      "end": 12,
+      "location": "indoor-phone-zones",
+      "characters": [
+        "male-extra",
+        "F",
+        "male-extra"
+      ],
+      "keyframe": null,
+      "status": "DRAFT"
+    },
+    {
+      "id": "S03",
+      "start": 12,
+      "end": 18,
+      "location": "fictional-valve-21-interior",
+      "characters": [
+        "A"
+      ],
+      "keyframe": "KF_MIDDLE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "S04",
+      "start": 18,
+      "end": 24,
+      "location": "generic-control-room",
+      "characters": [
+        "B"
+      ],
+      "keyframe": null,
+      "status": "DRAFT"
+    },
+    {
+      "id": "S05",
+      "start": 24,
+      "end": 30,
+      "location": "fictional-valve-21-interior",
+      "characters": [
+        "A",
+        "B"
+      ],
+      "keyframe": "KF_END",
+      "status": "DRAFT",
+      "forbid": [
+        "outdoor-pagephone",
+        "sunset-reactor"
+      ]
+    }
+  ],
+  "gates": {
+    "storyboard": "REVIEW",
+    "keyframes": "NOT_LOCKED",
+    "i2v": "NOT_STARTED",
+    "audio": "NOT_STARTED",
+    "final_render": "NOT_STARTED",
+    "submission": "NOT_AUTHORIZED"
+  }
+}

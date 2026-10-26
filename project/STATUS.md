@@ -1,19 +1,20 @@
-# PROJECT STATUS — 2026-10-26 KST
+# PROJECT STATUS — 2026-10-26 · V2
 
-| 항목 | 상태 |
-|---|---|
-| GitHub 리포지토리 | worldinyj/safety-up (public) |
-| 작업 브랜치 | feat/pagephone-confession-v1 |
-| 콘셉트 | 페이지폰의 고백 |
-| 사용자 결정 | 실사풍 / 빠르고 명확 / 실제 IP PAGE PHONE / C안 카피 |
-| 오프닝 호출음 | 요구조건 확정, 음원 미제작 |
-| 독립 I2V keyframe 3장 | **미승인/생산용 생성 필요** |
-| 스토리보드 6초 × 5 | V1 문서화, human approval 필요 |
-| Grokbot 프로듀서 지시서 | Draft 문서화, 인계 전 검토 필요 |
-| 영상 5개/음성/BGM | 미생성 |
-| 최종 30초 출품영상 | 미제작 |
+- Repository: `worldinyj/safety-up` (public)
+- Production branch: `feat/pagephone-confession-v1`
+- Current package: **Storyboard V2 + Visual Bible V2 + Grokbot Producer handoff V2**
+- Human notes: **여성은 S02 1꼭지**, 남성 S03/S04 유지; **마지막 페이지폰 실내 설치**; **오프닝 스크린 인사말**.
+- 6s × 5 clips: **DRAFT, not generated**.
+- Original `IMG_9556.jpeg`: provided in chat, **not uploaded to GitHub**.
+- Visual storyboard image: concept image generated in chat, **not uploaded to GitHub**.
+- Standalone I2V production keyframes: **NOT LOCKED**.
+- ElevenLabs voices/audio: **NOT GENERATED**.
+- Google Flow music: **NOT GENERATED / product license unverified**.
+- Final 30s MP4: **NOT CREATED**.
+- PR/main merge: pending review.
 
-## 다음 승인 결절
-1. 영상의 초단위 구성·대사 길이 인간 검토.
-2. 실물 장치 스크린샷 기반 품질 높은 **독립 키프레임 3장** 제작·승인.
-3. 그다음 producer handoff 최종화.
+## Next production gate
+1. Grokbot checkout/read **current V2 docs + manifest** on exact branch.
+2. Supply source product photograph separately (rights/security review).
+3. Create 3 **standalone true 16:9** I2V keyframes + prove the same device/characters.
+4. Director reviews and explicitly approves before video batch generation.
