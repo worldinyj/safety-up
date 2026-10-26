@@ -1,6 +1,6 @@
 # 페이지폰의 고백 — 샌드아트 독립 제작본
 
-> **Status (2026-10-26): S01 DIRECTOR_REVIEW_PENDING.** S02–S05는 제작 준비 단계. 영상 생성·음성 합성·최종 승인 및 공개는 미완료.
+> **Status (2026-10-26): S01 SANDBOX_V2 DIRECTOR_REVIEW_PENDING.** S02–S05는 제작 준비 단계. 영상 생성·음성 합성·최종 승인 및 공개는 미완료.
 
 이 폴더는 원자력안전문화 공모전용 **〈페이지폰의 고백〉 30초 샌드아트 영상**의 독립 작업 공간입니다. 별도 저장소가 아니라 `worldinyj/safety-up`의 별도 폴더이며, 작업 브랜치는 `feat/pagephone-sandart-v1`입니다.
 
@@ -41,12 +41,16 @@
 - `docs/03_AUDIO_CUES_V1.md`: 화자·타이밍·한국어 대사 원장.
 - `docs/04_PRODUCTION_WORKFLOW_V1.md`: 제작/승인 규칙과 차례.
 - `scenes/S01/`: 검토 기록, 이미지 SHA 및 무음 영상 생성 프롬프트.
-- `production/SCENE_REGISTRY_V1.json`: S01–S05 단계별 상태.
+- `production/SCENE_REGISTRY_V2.json`: S01–S05 현재 단계별 상태 (V1은 이력 보존).
 
 ## 이미지 파일 인계 (중요)
 
-S01의 PNG 3장과 컨택트시트는 별도 검토용 ZIP `safety_up_S01_SANDART_KEYFRAMES_REVIEW_V1.zip`로 제공했습니다. **GitHub 공개 저장소에는 바이너리 파일을 업로드하지 않았습니다.** 본 폴더에는 파일명, SHA256, 타임라인, 제작 지시와 검수 상태만 기록합니다.
+S01 V2의 PNG 3장과 컨택트시트는 별도 검토용 ZIP `safety_up_S01_SANDART_KEYFRAMES_REVIEW_V2.zip`로 제공했습니다. **GitHub 공개 저장소에는 바이너리 파일을 업로드하지 않았습니다.** 본 폴더에는 파일명, SHA256, 타임라인, 제작 지시와 검수 상태만 기록합니다.
 
-ZIP SHA256: `2c8ba16749b0014a5fc89f3270c84322a3937d5da3c53e584775f472801eb877`.
+V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc`.
+
+- 현재 S01 V2: 모래 입자 질감을 강조한 **디지털 프리비즈**(1672×941 소스 → 1920×1080 검토 출력). 동일한 페이지폰 마스터에서 0/3/6초 크롭. 감독 승인/모션/음성 미완료.
+- [S01 이미지 검토 기록](scenes/S01/REVIEW_V2.md), [무음 영상 프롬프트](scenes/S01/I2V_PROMPT_V2.md), [V2 레지스트리](production/SCENE_REGISTRY_V2.json).
+- V1은 기록으로 보존하고 현재 검토 기준은 **V2**입니다.
 
 영상화 전에는 ZIP의 정확한 버전과 실물 페이지폰 참고자료 대조를 완료해야 합니다. 이미지/비공개 현장자료를 공개 저장소에 올리기 전에 권리·보안·공개적합성 확인이 필요합니다.

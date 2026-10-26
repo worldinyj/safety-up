@@ -1,0 +1,41 @@
+{
+  "project": "pagephone-confession-sandart",
+  "scene": "S01",
+  "version": "V2",
+  "status": "DIRECTOR_REVIEW_PENDING",
+  "native_source_resolution": [
+    1672,
+    941
+  ],
+  "delivery_resolution": [
+    1920,
+    1080
+  ],
+  "visual": "digitally sand-textured still image (not live sand animation)",
+  "frames": [
+    {
+      "id": "F01",
+      "t": 0,
+      "sha256": "8f90bd6195f3eb73f70ffba0442c63e698a7bd112e3a06621fb378748e3f1fa8",
+      "name": "S01_F01_START_SANDART_V2.png"
+    },
+    {
+      "id": "F02",
+      "t": 3,
+      "sha256": "bcddf2ecb55daed247e8c4e753bf92d1fc70122709e920bd717b89f22aa29551",
+      "name": "S01_F02_MID_SANDART_V2.png"
+    },
+    {
+      "id": "F03",
+      "t": 6,
+      "sha256": "9994dfa8184d23857d918573e20b298b80f917bc8dc3be45a72f57e058d840e8",
+      "name": "S01_F03_END_SANDART_V2.png"
+    }
+  ],
+  "package_name": "safety_up_S01_SANDART_KEYFRAMES_REVIEW_V2.zip",
+  "package_sha256": "4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc",
+  "present_in_public_git_binary": false,
+  "video_generated": false,
+  "audio_generated": false,
+  "human_accepted": false
+}
