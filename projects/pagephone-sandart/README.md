@@ -65,3 +65,10 @@ V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc
 - 직원 독립 네이티브 HD 원화 생성은 **실패/미완료**. 영상 생성기에서 여러 패널이 들어간 스토리보드를 반복 출력하여 임시 검토본만 제작했으며, I2V에 아직 투입하지 않습니다.
 - [통합 QC V2](scenes/S02/QC_INTEGRATED_V2.md), [씬별 영상 프롬프트](scenes/S02/I2V_SHOT_PROMPTS_V2.md), [오디오·손 전환 시점](scenes/S02/AUDIO_CUES_V2.csv), [프레임 SHA](scenes/S02/FRAME_MANIFEST_PREVIS_V2.json).
 - 최신 제작 상태: [SCENE_REGISTRY_V5.json](production/SCENE_REGISTRY_V5.json). 이전 V1–V4는 감사 추적을 위해 보존합니다.
+
+## 최신 샌드아트 전환 규칙 / S05
+
+- **[통제형 모래 전환 표준 V2](docs/06_CONTROLLED_SAND_TRANSITIONS_V2.md)**가 최신 규칙입니다. 종전 '모든 변화마다 화가 손 직접 노출 필수' 규칙을 대체하여 **보이는 손은 선택적**, 방향성 모래 스윕·짧은 희미화·새 장면 안정화가 필수입니다.
+- **[S05 V1 통합 검수](scenes/S05/S05_V1_INTEGRATED_QC.md)** / **[영상 프롬프트·한국어 오디오](scenes/S05/S05_V1_I2V_AND_AUDIO.md)** / **[제작 상태 V12](production/SCENE_REGISTRY_V12.json)**.
+- S05 V1 검토 패키지: `safety_up_S05_CONTROLLED_TRANSITIONS_V1_INTEGRATED.zip` (SHA256 `12779584e8c72de17f8725d4c1e7fadb827434187ff2e116590bac73aca0632e`). PNG·MP4·ZIP은 다운로드 패키지로만 전달하고 **GitHub 공개 바이너리 업로드는 하지 않았습니다.**
+- 현재 24초 영상에는 S01이 포함되지 않고 실제 ElevenLabs 한국어 음원·BGM·전체 30초 합본이 없습니다. `FINAL_LOCKED=false`.
