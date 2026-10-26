@@ -20,3 +20,10 @@
 - 공개 저장소에는 실제 KHNP CI 바이너리와 사내 제공 원본 이미지를 업로드하지 않았음.
 - 별도 QC ZIP `safety_up_khnp_ci_qc_v31.zip` 보관; Grokbot 로컬에 전달 후 CI 원본 합성 진행.
 - 상태 `BRAND_QC_PENDING`, 다음 게이트는 공식 CI 파일 확보 및 200% 확대/6초 로고 추적 승인.
+
+## Stage S01/S02 frame review 2026-10-26 / V3.2
+- 6 independent 16:9 pixel exports (three for S01 and three for S02) collected into private review ZIP `safety_up_S01_S02_keyframes_REVIEW_V1.zip`. SHA256: `6a4b5e98b86f38773249ced973c119d2c8e3bfc1993e57a80d0a4732a7c6514c`.
+- Note: existing generated source images resized to 1920×1080, some reframed. These are **candidates not native master production keyframes**.
+- `docs/05_generation/FRAME_REVIEW_S01_S02_V32.md` and `production/frame_review_s01_s02_v32.json` are current handoff docs; update after director review.
+- S01 phone geometry across start/mid/end not fully consistent; `PHONE_GEOMETRY_QC_PENDING`. S02 one female mini-shot present; `BRAND_QC_PENDING` still applies.
+- No paid 6-second video generation until approval. **Next image stage S03 only after director chooses approve or revision.**

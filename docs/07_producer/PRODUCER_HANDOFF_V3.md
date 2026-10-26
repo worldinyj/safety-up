@@ -62,3 +62,6 @@ Ref image missing, fake device, wrong A label/pronunciation, woman as protagonis
 - 새 로컬 검수 패키지 `safety_up_khnp_ci_qc_v31.zip`은 채팅에서 별도 전달받는 비공개 자산. GitHub에는 해당 바이너리를 업로드하지 않음.
 - 최종 이미지 QA는 **헬멧/가슴패치 200% 확대** + **6초 움직임 시 원근/크기 안정성** + 브랜드·권리 확인을 포함.
 - 페이지폰 원본 형태 준수, S02 여성 한 꼭지, A 밸브(알파) 및 S05 석양 엔딩은 기존 V3 LOCK대로 유지.
+
+## S01/S02 stage review note (V3.2)
+Before image-to-video generation, read `docs/05_generation/FRAME_REVIEW_S01_S02_V32.md` and `production/frame_review_s01_s02_v32.json`. Retrieve private `safety_up_S01_S02_keyframes_REVIEW_V1.zip` via operator if available. It contains six **preview candidates**, not native FHD masters. Mark S01 phone design and official KHNP CI as pending; respect human review before S03 or I2V.
