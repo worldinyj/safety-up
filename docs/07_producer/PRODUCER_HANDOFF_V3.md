@@ -44,3 +44,11 @@ Ref image missing, fake device, wrong A label/pronunciation, woman as protagonis
 
 ### Artifact naming
 `assets/frames_v3/S01_F01_START.png` ... `S05_F03_END.png`, `production/shot_manifest_v3.json`, `logs/QC_V3.md`, each with SHA256/status/human decision. **NO `LOCKED` status based on collage crop.**
+
+
+## V3 미디어 로컬 인계 체크 (2026-10-26 추가)
+- 반드시 `production/assets_manifest_v3.json` 및 `docs/09_assets/MEDIA_HANDOFF_V3.md`를 함께 읽는다.
+- ChatGPT 첨부 미디어 패키지 `safety_up_grokbot_media_handoff_v3.zip`을 로컬 저장소에 해제한 후 `python3 scripts/verify_media_v3.py` 검증에서 PASS가 나와야 참조 이미지를 기반으로 고화질 키프레임을 제작할 수 있다.
+- 이 ZIP의 SHA256은 `f19f1ae4d8e7413392559337b437dc1cd94042aea9d6928ec1f7516c1f40e21d`. **공개 GitHub 저장소에는 해당 바이너리가 없으며**, Grokbot Cloud에는 자동 전달되지 않는다.
+- ZIP에 포함된 15장의 `*_PREVIS_V3.jpg`는 1920×1080로 업스케일되었지만 출처는 작은 보드 컷이다. **별도 네이티브 FHD 키프레임 15장 승인 전 영상 생성 금지**.
+- 감독에게 30초 무음 애니매틱 `safety_up_30sec_animatic_previs_v3.mp4`(720p, 타이밍 점검용)를 별도 제공할 수 있으나, 영상 원본 또는 납품본으로 등록하지 않는다.
