@@ -1,6 +1,6 @@
 # 페이지폰의 고백 — 샌드아트 독립 제작본
 
-> **Status (2026-10-26): S01 SANDBOX_V2 DIRECTOR_REVIEW_PENDING.** S02–S05는 제작 준비 단계. 영상 생성·음성 합성·최종 승인 및 공개는 미완료.
+> **현재 상태 (2026-10-26): S01 V3 이미지 조건부 검토 통과, S02 V1 프리비즈 8장 생성 후 통합 QC FAIL — 독립 HD 재생성 필요.** S01·S02 I2V/한국어 음원/최종 승인 전, S03–S05 미제작.
 
 이 폴더는 원자력안전문화 공모전용 **〈페이지폰의 고백〉 30초 샌드아트 영상**의 독립 작업 공간입니다. 별도 저장소가 아니라 `worldinyj/safety-up`의 별도 폴더이며, 작업 브랜치는 `feat/pagephone-sandart-v1`입니다.
 
@@ -41,7 +41,7 @@
 - `docs/03_AUDIO_CUES_V1.md`: 화자·타이밍·한국어 대사 원장.
 - `docs/04_PRODUCTION_WORKFLOW_V1.md`: 제작/승인 규칙과 차례.
 - `scenes/S01/`: 검토 기록, 이미지 SHA 및 무음 영상 생성 프롬프트.
-- `production/SCENE_REGISTRY_V2.json`: S01–S05 현재 단계별 상태 (V1은 이력 보존).
+- `production/SCENE_REGISTRY_V4.json`: S01–S05 최신 단계별 상태 (V1–V3 이력 보존).
 
 ## 이미지 파일 인계 (중요)
 
@@ -54,3 +54,7 @@ V2 ZIP SHA256: `4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc
 - V1은 기록으로 보존하고 현재 검토 기준은 **V2**입니다.
 
 영상화 전에는 ZIP의 정확한 버전과 실물 페이지폰 참고자료 대조를 완료해야 합니다. 이미지/비공개 현장자료를 공개 저장소에 올리기 전에 권리·보안·공개적합성 확인이 필요합니다.
+
+## 이미지 생성 직후 필수 통합 QC
+
+씬별 이미지 생성이 끝나면 **이미지·프롬프트·나레이션·발화 시간·전후 씬 연속성·파일 무결성**을 한 번에 검수합니다. 기준: [`docs/05_IMAGE_POSTGEN_BATCH_QC_V1.md`](docs/05_IMAGE_POSTGEN_BATCH_QC_V1.md). 현 S02 검수: [`scenes/S02/QC_INTEGRATED_V1.md`](scenes/S02/QC_INTEGRATED_V1.md). 부족한 자료는 `PENDING`/`NOT_TESTED`, 실패는 `FAIL`로 기록하고 최종 승인이나 I2V 생성으로 진행하지 않습니다.
