@@ -149,7 +149,10 @@
       "latest_timing_qc_doc": "scenes/S02/PHONE_PICKUP_AND_INTEGRATED_QC_V3_1.md",
       "audio_cue_doc": "scenes/S02/AUDIO_CUES_V3_1.csv",
       "prompt_doc": "scenes/S02/I2V_SINGLE_SHOT_INSTRUCTIONS_V3_1.md",
-      "local_additional_package_sha256": "415d3761e5e1be309263b75164d54df705f02fc286e6d64c981d731eb31004a5"
+      "local_additional_package_sha256": "0c105c2fdab14288cd78fdb1710414cab371d03b5b5c361b372b980e6c22fa03",
+      "preferred_v3_1_handoff_package": "safety_up_S02_V3_1_RECOVERY_QC.zip",
+      "preferred_v3_1_handoff_sha256": "1493175bd75bff157bfe52b79b79d98eaedf77e7b9d829d67821800c40ee5d62",
+      "cradle_appearance_qc": "UPDATED_VECTOR_CRADLE_CENTRAL_DARK_RAIL_REMOVED_STILL_NOT_PRODUCTION"
     },
     {
       "id": "S03",
