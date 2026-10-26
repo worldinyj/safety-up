@@ -1,0 +1,7 @@
+global_start,global_end,track,speaker,text_ko,visual_note,audio_recorded
+18.00,18.12,AMB,none,,S03 field worker last frame,N
+18.12,18.55,SFX_SAND_WIPE,artist,,Visible hand redrawing into leader,N
+18.55,21.90,DIALOG_LEADER_M,leader,"오케이. 작업 잠시 멈추고 같이 확인합시다.",Leader speaks directly,N
+21.90,22.00,AMB_PAUSE,none,,Leader stops speaking,N
+22.00,23.90,VO_PAGEPHONE,offscreen,"바로 이런 순간이죠.",Leader does not move mouth,N
+23.90,24.00,AMB_TO_S05,none,,Lead to joint confirmation,N
