@@ -1,0 +1,106 @@
+{
+  "project": "pagephone-confession-sandart",
+  "scene": "S02",
+  "version": "V1_PREVIS",
+  "created_at": "2026-10-26",
+  "status": "REVIEW_PENDING_REGEN_REQUIRED_BEFORE_I2V",
+  "root": "projects/pagephone-sandart",
+  "media_binary_git_uploaded": false,
+  "scene_global_time": [
+    6,
+    12
+  ],
+  "format": {
+    "previs_width": 1280,
+    "previs_height": 720,
+    "panel_native_resolution_approx": [
+      404,
+      225
+    ],
+    "native_hd": false
+  },
+  "origin": "S02 scenes are crops of one 2048x768 generated storyboard with captions removed; S01 boundary and final phone come from exact S01 V3 images; artistic preview only.",
+  "reference_s01": {
+    "last_image_sha256": "5cb1f0c8773a8c128968690b5f33b4f7b7a11d46e9ea8970e2fc8174b9e8442f88",
+    "note": "External S01 v3 local anchor; not independently uploaded to GitHub"
+  },
+  "package": {
+    "filename": "safety_up_S02_SANDART_KEYFRAMES_PREVIS_V1.zip",
+    "sha256": "ed61305670abdfba014e17146d32301ca8bec3871bdb4899d7dc2775ab880aa0",
+    "zip_crc_test": "PASS",
+    "members": 13
+  },
+  "contact_sheet": {
+    "filename": "S02_CONTACT_SHEET_REVIEW_V1.jpg",
+    "sha256": "280113200e2a57eade9336317d264a19ed9f095e288d8b8bef2ba14d0a2933e5"
+  },
+  "frames": [
+    {
+      "name": "S02_F00_S01_BRIDGE_06P00.png",
+      "sha256": "1bf53c176fe265b41aeb0636bf717d3db4fbffc979505482a5202cfc4130400a",
+      "description": "S01 V3 end exact reused",
+      "t_relative": 0,
+      "source": "S01_V3_ANCHOR"
+    },
+    {
+      "name": "S02_F01_MALE1_06P20.png",
+      "sha256": "506190b88b451f7834c49ee228d6d562818f94f8c325d635ef286b72dda67cfb",
+      "description": "Male1 dialogue",
+      "t_relative": 0.2,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_T01_HAND_07P25.png",
+      "sha256": "45495fd74cae47ea438cb0365a9e6ba3c453de83365c81620bf8e6d1923adba9",
+      "description": "Artist wipes sand transition",
+      "t_relative": 1.25,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_F02_FEMALE_07P55.png",
+      "sha256": "9b75a20fea148399cd4c5a2820fd584bac3ad4e8f3cd55c94463739401d4979a",
+      "description": "Female dialogue",
+      "t_relative": 1.55,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_T02_HAND_08P55.png",
+      "sha256": "8f4f15643f2a0e6599071f884e03bed83c530f498126494c6d6456a9ca17f898",
+      "description": "Artist wipes sand transition",
+      "t_relative": 2.55,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_F03_MALE2_09P00.png",
+      "sha256": "6d20cf3abc4fa1f86ea5113fcea86147733d4ebb5788db52b6a0dcc9c1e840c3",
+      "description": "Male2 dialogue",
+      "t_relative": 3,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_T03_HAND_09P85.png",
+      "sha256": "c4b25145ffb340477b318bc98c1ebcebe46ba8ec8980fe8e0927070d932cfe65",
+      "description": "Artist wipes sand transition",
+      "t_relative": 3.85,
+      "source": "GENERATED_STORYBOARD_PANEL_CROP"
+    },
+    {
+      "name": "S02_F04_PAGEPHONE_VO_10P20.png",
+      "sha256": "b494618519fe4386d3927afdd4575a653cc1ae487201f5842bad9c28e616eb86",
+      "description": "S01 V3 pagephone exact reused",
+      "t_relative": 4.2,
+      "source": "S01_V3_ANCHOR"
+    }
+  ],
+  "qc": {
+    "s01_anchor_reused": true,
+    "visible_sand_artist_hands": 3,
+    "one_female_role": true,
+    "two_distinct_male_roles": true,
+    "phone_hardware_in_actor_panels": "NOT_VERIFIED",
+    "handset_cradle_logic_in_actor_panels": "NOT_VERIFIED",
+    "audio_duration_measured": false,
+    "video_generated": false,
+    "human_approved": false
+  }
+}
