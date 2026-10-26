@@ -52,3 +52,13 @@ Ref image missing, fake device, wrong A label/pronunciation, woman as protagonis
 - 이 ZIP의 SHA256은 `f19f1ae4d8e7413392559337b437dc1cd94042aea9d6928ec1f7516c1f40e21d`. **공개 GitHub 저장소에는 해당 바이너리가 없으며**, Grokbot Cloud에는 자동 전달되지 않는다.
 - ZIP에 포함된 15장의 `*_PREVIS_V3.jpg`는 1920×1080로 업스케일되었지만 출처는 작은 보드 컷이다. **별도 네이티브 FHD 키프레임 15장 승인 전 영상 생성 금지**.
 - 감독에게 30초 무음 애니매틱 `safety_up_30sec_animatic_previs_v3.mp4`(720p, 타이밍 점검용)를 별도 제공할 수 있으나, 영상 원본 또는 납품본으로 등록하지 않는다.
+
+
+## V3.1 KHNP 공식 CI 필수 중간 게이트 (2026-10-26 추가)
+- **임의 AI 생성 녹색 마크/KHNP 유사 로고를 공식 CI로 간주하지 말 것.** 안전모와 가슴 패치 모두 원형 심볼·사선·청색 KHNP 글자의 비례 일치 확인.
+- 읽을 파일: `docs/03_visual/KHNP_CI_QC_V31.md`, `production/ci_placements_TEMPLATE_v31.json`, `scripts/apply_official_ci_overlay.py`.
+- **공식 다운로드 출처:** https://www.khnp.co.kr/main/contents.do?key=2238. PNG/AI 다운로드 가능; 실제 공식 원본과 브랜드·사용권 규정을 승인받은 후 로컬 `assets/brand/KHNP_OFFICIAL_SIGNATURE.png`에 보관. 반드시 SHA256 기록.
+- 15개 이미지 생성 시에는 가능하면 **깨끗한 무로고 안전모/가슴 패치**로 먼저 작업. 이후 공식 CI를 마스킹/트래킹해서 합성. 공식 로고 원본이 확보되지 않았다면 `BRAND_QC_PENDING`으로 유지.
+- 새 로컬 검수 패키지 `safety_up_khnp_ci_qc_v31.zip`은 채팅에서 별도 전달받는 비공개 자산. GitHub에는 해당 바이너리를 업로드하지 않음.
+- 최종 이미지 QA는 **헬멧/가슴패치 200% 확대** + **6초 움직임 시 원근/크기 안정성** + 브랜드·권리 확인을 포함.
+- 페이지폰 원본 형태 준수, S02 여성 한 꼭지, A 밸브(알파) 및 S05 석양 엔딩은 기존 V3 LOCK대로 유지.

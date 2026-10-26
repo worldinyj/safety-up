@@ -20,3 +20,11 @@
 ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of json deliverables/SAFETY_UP_PAGEPHONE_FINAL_V01.mp4
 shasum -a 256 deliverables/SAFETY_UP_PAGEPHONE_FINAL_V01.mp4
 ```
+
+
+## CI 게이트 V3.1 (G3 이전 필수)
+- 공식 KHNP CI 참조: https://www.khnp.co.kr/main/contents.do?key=2238
+- 안전모/작업복 패치에 쓰이는 AI 생성 로고는 공식 원본이 아닐 수 있으므로 `BRAND_QC_PENDING`.
+- `docs/03_visual/KHNP_CI_QC_V31.md`의 CI01–CI06 전 항목을 통과하기 전에는 고화질 키프레임을 `LOCKED`로 변경하지 않는다.
+- 공식 투명 PNG 사용 및 SHA256 기록, 바닥 이미지의 잘못된 로고 제거, 위치/곡률/트래킹/가림 검수, 법무·브랜드 사용권 확인.
+- 제공되는 `safety_up_khnp_ci_qc_v31.zip`은 로컬용 확대 검수표와 시안 2장으로, **공식 CI 파일을 포함하지 않는다**.
