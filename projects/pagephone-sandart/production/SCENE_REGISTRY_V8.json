@@ -1,0 +1,201 @@
+{
+  "project": "pagephone-confession-sandart",
+  "version": "8.0",
+  "updated_at_kst": "2026-10-26",
+  "repo": "worldinyj/safety-up",
+  "branch": "feat/pagephone-sandart-v1",
+  "root": "projects/pagephone-sandart",
+  "source_story_branch": "feat/pagephone-confession-v1",
+  "master_status": "S01_IMAGE_CONDITIONAL_S02_V4_MATERIAL_STUDY_AND_SILENT_TIMING_ANIMATIC_QC_BLOCKED",
+  "format": {
+    "duration_sec": 30,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "aspect": "16:9"
+  },
+  "media_policy": "Binary frames and ZIP are staged outside public GitHub; SHA manifests committed; do not mark as uploaded.",
+  "scenes": [
+    {
+      "id": "S01",
+      "range_sec": [
+        0,
+        6
+      ],
+      "images": "USER_CONDITIONAL_ACCEPTANCE_V3",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "keyframes": [
+        "scenes/S01/frames/S01_F01_START_SANDART_V2.png",
+        "scenes/S01/frames/S01_F02_MID_SANDART_V2.png",
+        "scenes/S01/frames/S01_F03_END_SANDART_V2.png"
+      ],
+      "keyframe_presence_in_git": false,
+      "zip_sha256": "4c74880649702007fc4598237c784d44a274aff7fddd479eb8857b3aa2997ebc",
+      "image_version": "SANDART_V3_VISUAL_REFERENCE_PENDING_GITHUB_ASSET_SYNC",
+      "master_source_native_resolution": [
+        1672,
+        941
+      ],
+      "export_resolution": [
+        1920,
+        1080
+      ],
+      "qc": {
+        "phone_geometry_source": "single source image, crop only",
+        "phone_area_ssim_against_same_source_render": [
+          1,
+          1,
+          1
+        ],
+        "real_sand_animation_generated": false,
+        "human_review": false,
+        "reference_pagephone_photo_verified": false
+      },
+      "v1_retained_as_history": true
+    },
+    {
+      "id": "S02",
+      "range_sec": [
+        6,
+        12
+      ],
+      "images": "V4_PROCEDURAL_SAND_TEXTURE_APPLIED_TO_V3_1_BLOCKING_NOT_A_NEW_MASTER",
+      "motion": "V4_6SEC_960X540_30FPS_SILENT_TIMING_ANIMATIC_ONLY_NOT_I2V",
+      "audio": "KOREAN_TEXT_CUES_ONLY_NO_RECORDINGS",
+      "locked": false,
+      "scene_start_matches": "S01_V3_END_WORKER_PHONE",
+      "frame_count": 8,
+      "visual_beats": [
+        "S01_END_BRIDGE",
+        "MALE_1",
+        "HAND_SWIPE",
+        "FEMALE",
+        "HAND_SWIPE",
+        "MALE_2",
+        "HAND_SWIPE",
+        "PAGEPHONE_VO"
+      ],
+      "package_name": "safety_up_S02_DESIGN_V3_INTEGRATED.zip",
+      "package_sha256": "5e5c6b55c372c777aa103048107b87568af08f7672d8f2467c613fd76c773b61",
+      "contact_sheet_sha256": "5a5723e8c5e4cb0b2f1a5e256c349a6f149d18b46654b5efa3a1ea42e48fc73f",
+      "native_source_note": "Storyboard panels approx 404x220px upscaled to 1280x720. NOT I2V-ready independent masters.",
+      "keyframe_presence_in_git": false,
+      "director_approval": false,
+      "integrated_qc": {
+        "version": "V4_MATERIAL_AND_TIMING_STUDY",
+        "status": "TECHNICAL_ANIMATIC_PASS_SAND_MOTION_AND_S01_PHONE_CONSISTENCY_FAIL_I2V_BLOCKED",
+        "report": "scenes/S02/INTEGRATED_QC_V4.md",
+        "package_name": "safety_up_S02_V4_MATERIAL_AND_ANIMATIC_QC.zip",
+        "package_sha256": "2303beac4e95b921ec88d8f1975f3e1f0c912d263d7975b7e2f8ce37897c48c9",
+        "contact_name": "S02_V3_1_vs_V4_COMPARISON.jpg",
+        "contact_sha256": "4afabfff55150caf9581307cc60d5be84c73fc6303aab18ba00b13d2e8566574",
+        "test_mp4_name": "S02_6S_SILENT_TIMING_ANIMATIC_V4.mp4",
+        "test_mp4_sha256": "101369be44485296d2668bc07fe69c44c509eb5c21c14ed5be51181bb7aeb984",
+        "mp4_technical": {
+          "duration_sec": 6,
+          "fps": 30,
+          "frames": 180,
+          "width": 960,
+          "height": 540,
+          "audio_streams": 0
+        },
+        "mp4_limitation": "Static vector blocking frames sequenced with simple 2D hand translation, NOT an I2V scene, no simulated physical sand redraw.",
+        "s01_first_frame_byte_identical": true,
+        "s01_device_consistency": "FAIL",
+        "sand_art_style": "FAIL_NOT_NATURAL_HUMAN_MADE_STILL",
+        "sand_artist_actual_hand_redraw": "NOT_IMPLEMENTED",
+        "voice_actual_audio": "NOT_GENERATED",
+        "independent_native_fhd_sand_art": "NOT_GENERATED",
+        "director_acceptance": false
+      },
+      "i2v_authorized": false,
+      "next_gate": "Produce same S01 pagephone geometry in S02 one-handset call frames, genuine handmade sand-art images, physical artist-hand redraw motion and measured Korean recordings before production I2V.",
+      "independent_vector_renders": 7,
+      "s01_last_anchor_copied_unchanged": true,
+      "timeline_revision": "V3.1_PHONE_PICKUP_FIRST",
+      "handoff_issue": "S01 final handset ON wall but prior S02 dialogue started at 06.00, leaving no pickup time.",
+      "pick_up_window_sec": [
+        6,
+        6.34
+      ],
+      "dialogue_windows_sec": [
+        [
+          6.34,
+          7.37
+        ],
+        [
+          7.67,
+          8.54
+        ],
+        [
+          8.84,
+          9.74
+        ]
+      ],
+      "artist_hand_windows_sec": [
+        [
+          7.37,
+          7.67
+        ],
+        [
+          8.54,
+          8.84
+        ],
+        [
+          9.74,
+          10.12
+        ]
+      ],
+      "pagephone_vo_window_sec": [
+        9.95,
+        11.94
+      ],
+      "latest_timing_qc_doc": "scenes/S02/PHONE_PICKUP_AND_INTEGRATED_QC_V3_1.md",
+      "audio_cue_doc": "scenes/S02/AUDIO_CUES_V3_1.csv",
+      "prompt_doc": "scenes/S02/I2V_SINGLE_SHOT_INSTRUCTIONS_V3_1.md",
+      "local_additional_package_sha256": "0c105c2fdab14288cd78fdb1710414cab371d03b5b5c361b372b980e6c22fa03",
+      "preferred_v3_1_handoff_package": "safety_up_S02_V3_1_RECOVERY_QC.zip",
+      "preferred_v3_1_handoff_sha256": "1493175bd75bff157bfe52b79b79d98eaedf77e7b9d829d67821800c40ee5d62",
+      "cradle_appearance_qc": "UPDATED_VECTOR_CRADLE_CENTRAL_DARK_RAIL_REMOVED_STILL_NOT_PRODUCTION"
+    },
+    {
+      "id": "S03",
+      "range_sec": [
+        12,
+        18
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "visual_valve_label": "V11",
+      "spoken_label_ko": "브이십일"
+    },
+    {
+      "id": "S04",
+      "range_sec": [
+        18,
+        24
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false
+    },
+    {
+      "id": "S05",
+      "range_sec": [
+        24,
+        30
+      ],
+      "images": "NOT_GENERATED",
+      "motion": "NOT_GENERATED",
+      "audio": "NOT_GENERATED",
+      "locked": false,
+      "split_at_sec": 27
+    }
+  ],
+  "production_gate_policy": "Image generation -> integrated batch QC of images/prompts/Korean audio cues/timing/adjacent scenes -> human review -> I2V. Missing evidence cannot PASS."
+}
