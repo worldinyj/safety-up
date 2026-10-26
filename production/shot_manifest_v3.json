@@ -191,5 +191,26 @@
     "audio": "NOT_STARTED",
     "edit": "NOT_STARTED",
     "human_approval": "PENDING"
+  },
+  "brand_qc": {
+    "revision": "V3.1",
+    "status": "BRAND_QC_PENDING",
+    "official_ci": "https://www.khnp.co.kr/main/contents.do?key=2238",
+    "policy": "Official transparent KHNP PNG must be obtained and manually composited; don't approve AI-recreated emblem",
+    "affected_frames": [
+      "S02_F02_MID",
+      "S03_F01_START",
+      "S03_F02_MID",
+      "S03_F03_END",
+      "S05_F01_START"
+    ],
+    "qa_artifacts": "safety_up_khnp_ci_qc_v31.zip (private operator handoff, not committed to public repo)",
+    "gates": [
+      "official original SHA256",
+      "helmet ratio",
+      "jacket patch",
+      "tracking 6 seconds",
+      "release rights review"
+    ]
   }
 }
